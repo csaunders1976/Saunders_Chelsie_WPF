@@ -19,34 +19,24 @@ console.log("Sparky is " + sparkysAge + " human years old which is " + result + 
 //Create expression that calculates how much pizza each student will get at the party.
 
 // Declaring and Defining Number of slices per pizza
-var pizza = 5;
+var pizza = 6;
 // Declaring and Defining Number of people at the party
-var students = 20;
+var students = 11;
 // Declaring and Defining Number of pizzas ordered.
-var slices = 8;
+var slices = 10;
 // Declaring and Defining Result
 var sliceResult = pizza * slices/students;
 
 //Result to Print:
 console.log("Each person ate " + sliceResult + " slices of pizza at the party.");
-/*
- Slice of Pie part II
+/*-------Slice of Pie part II--------*/
+//Create expression that calculates how much of the remaining pizza goes to Sparky
 
- At the pizza party Sparky, the host’s dog is excited, because he gets the leftover pizza after the slices have been divided up evenly among the guests. Assume guests get whole slices, how many whole slices will Sparky feast on?
+// Declaring and Defining Result
+var dogsSlices = pizza * slices%students;
 
- Example data set: 10 people, 4 pizzas and 8 slices per pizza will mean each person eats 3 slices and Sparky gets 2 slices. (Note that this is an example, your code should work and give me the accurate results no matter what numbers I put in for those given variables.)
- Given:
-
- Don’t make new given variables/constants for this. Instead use the givens you set up for Slice of Pie I.
-
- Result Variables:
-
- Number of slices Sparky gets to eat.
-
- Result to Print:
-
- “Sparky got X slices of pizza.”
- */
+// Result to Print:
+console.log("Sparky got " + dogsSlices + " slices of pizza.");
 
 /*
  Average shopping bill
