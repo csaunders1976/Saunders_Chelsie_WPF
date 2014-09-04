@@ -29,6 +29,8 @@ var sliceResult = pizza * slices/students;
 
 //Result to Print:
 console.log("Each person ate " + sliceResult + " slices of pizza at the party.");
+
+
 /*-------Slice of Pie part II--------*/
 //Create expression that calculates how much of the remaining pizza goes to Sparky
 
@@ -38,8 +40,8 @@ var dogsSlices = pizza * slices%students;
 // Result to Print:
 console.log("Sparky got " + dogsSlices + " slices of pizza.");
 
-/*------Average shopping bill--------*/
 
+/*------Average shopping bill--------*/
 //Create an expression that will calculate the average  spent on groceries.
 
 // Declaring and Defining the array for grocery totals
@@ -53,23 +55,28 @@ var average = totalSpent/5;
 // Result to Print
 console.log("You have spent a total of " + "$" + totalSpent + " on groceries over 5 weeks. That is an average of " + "$" + average + " per week");
 
-/*
- Discounts
+/*----------Discounts------------------*/
+//Create an expression that will calculate the discounted price with and without sales tax.
 
- Calculate the discounted price for an item. Create an expression that will calculate the discounted price with and without sales tax. (It is acceptable for the result to have more than two digits after the decimal. $345.896 for example.)
- Givens:
+// Declaring and Defining of original price
+var price = 10;
+// Declaring and defining discount rate
+var  discount = 20;
+// Declaring and Defining discount percentage
+var rate = price*discount/100;
 
- Original price
- Discount percentage (20% would be 20, for example)
- Description of item
- Sales tax percentage
+// Declaring and Defining description of item
+var item = "cookie";
+// Declaring and Defining sales tax percentage
+var salesTax = 2;
 
- Result Variables:
+// Result Variables:
 
- Price of the item with tax
- Price of the item without tax
-
- Result to Print:
-
- “Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.”
- */
+//Declaring and Defining Price of the item without tax
+var withoutTax = price-rate;
+// Declaring and defining tax rate
+var taxRate = withoutTax * salesTax/100;
+//Declaring and Defining Price of the item with tax
+var withTax = withoutTax + taxRate;
+//Result to Print:
+console.log("Your " + item + " was originally " + "$" + price + ", but after a " + discount + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax.");
