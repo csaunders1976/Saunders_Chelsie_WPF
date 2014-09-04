@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c0ef49-0c18-4a98-8c88-62870929f76b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_worksheet/js/script.js" afterPath="$PROJECT_DIR$/Expressions_worksheet/js/script.js" />
-    </list>
+    <list default="true" id="93c0ef49-0c18-4a98-8c88-62870929f76b" name="Default" comment="" />
     <ignored path="Saunders_Chelsie_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +26,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82930297" vertical-offset="602" max-vertical-offset="1305">
+            <state vertical-scroll-proportion="1.685633" vertical-offset="0" max-vertical-offset="1305">
               <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -62,8 +60,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-212" />
-    <option name="y" value="22" />
+    <option name="x" value="40" />
+    <option name="y" value="38" />
     <option name="width" value="1441" />
     <option name="height" value="813" />
   </component>
@@ -221,7 +219,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-212" y="22" width="1441" height="813" extended-state="0" />
+    <frame x="40" y="38" width="1441" height="813" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -368,7 +366,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82930297" vertical-offset="602" max-vertical-offset="1305">
+        <state vertical-scroll-proportion="1.685633" vertical-offset="0" max-vertical-offset="1305">
           <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
