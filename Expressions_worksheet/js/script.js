@@ -4,41 +4,34 @@ September 3, 2014
 Expressions_worksheet
  */
 
+/*---------Dog Years-------------- */
+//Calculate Sparky's age in dog years.
+//Declaring and Defining Sparky's age
+var sparkysAge = 3;
+//Declaring and Defining dog years
+var dogYears = 7;
+//Declaring and Defining result variable
+var result = sparkysAge * dogYears;
+//Result to Print:
+console.log("Sparky is " + sparkysAge + " human years old which is " + result +  " in dog years.");
+
+/*-------Slice of Pie part 1--------*/
+//Create expression that calculates how much pizza each student will get at the party.
+
+// Declaring and Defining Number of slices per pizza
+var pizza = 5;
+// Declaring and Defining Number of people at the party
+var students = 20;
+// Declaring and Defining Number of pizzas ordered.
+var slices = 8;
+// Declaring and Defining Result
+var sliceResult = pizza * slices/students;
+
+//Result to Print:
+console.log("Each person ate " + sliceResult + " slices of pizza at the party.");
 /*
- Dog Years
+ Slice of Pie part II
 
- Dogs age 7 times faster than humans so a dog that is 1 year old in human years is 7 years old in “dog years.”  Calculate how old Sparky the pit bull is in dog years based on his actual age.
- Givens:
-
- Sparky’s age.
-
- Result Variable:
-
- Sparky’s age in dog years.
-
- Result to Print:
-
- “Sparky is X human years old which is X in dog years.
-
- Slice of Pie part 1
-
- A bunch of students are having a party and somebody ordered pizza. Create an expression that calculates how much pizza each partygoer will get at the party.  (Assume all pizzas have the same number of slices and that the person dividing the pizza is really precise, so this can be a decimal, like 3.52 slices, etc.)
- Given:
-
- Number of slices per pizza
- Number of people at the party
- Number of pizzas ordered.
-
- Result Variables:
-
- Number of slices per person. (Can be a decimal or floating point).
-
- Result to Print:
-
- “Each person ate X slices of pizza at the party.”
- */
-
-/*
  At the pizza party Sparky, the host’s dog is excited, because he gets the leftover pizza after the slices have been divided up evenly among the guests. Assume guests get whole slices, how many whole slices will Sparky feast on?
 
  Example data set: 10 people, 4 pizzas and 8 slices per pizza will mean each person eats 3 slices and Sparky gets 2 slices. (Note that this is an example, your code should work and give me the accurate results no matter what numbers I put in for those given variables.)
@@ -57,7 +50,7 @@ Expressions_worksheet
 
 /*
  Average shopping bill
- 
+
  You are budgeting your money for the year and must calculate your average weekly grocery shopping spending over the past five weeks. Store the past five grocery totals as a list in an array. Create an expression that will use the items in the array to calculate the average amount spent on groceries.
 
  Please note: there should only be one given for this problem set, the array holding the five weekly totals.  You should be able to access the array using the array access notation discussed earlier in the course.
