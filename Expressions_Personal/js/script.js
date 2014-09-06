@@ -17,7 +17,5 @@ var box = 13;
 //varible for result
 var result = width * length/box;
 //What needs to be printed out in the console and the alert
-console.log("You will require " + result + " boxes of flooring" + "to cover " + "square feet of floor");
-//It will require X amount of boxes to cover X amount of floor.
-console.log("You will require " + result + " boxes of flooring" + "to cover " + "square feet of floor");
+console.log("You will require " + result + " boxes of flooring" + " to cover " + "square feet of floor.");
 alert("You will require " + result + " boxes of flooring" + "to cover " + "square feet of floor");
