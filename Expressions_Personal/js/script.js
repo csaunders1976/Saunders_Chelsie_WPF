@@ -1,6 +1,6 @@
 /*
 Chelsie Saunders
 September 5 ,2014
-Prompts and Alerts
+Expressions Personal
  */
 //How many boxes of flooring??
