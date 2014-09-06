@@ -18,4 +18,4 @@ var box = 13;
 var result = width * length/box;
 //What needs to be printed out in the console and the alert
 //"You will require " + result + " boxes of flooring" + "to cover " + x + "square feet of floor"
-alert("You will require " + result + " boxes of flooring" + "to cover " + width * length " square feet of floor");
+alert("You will require " + result + " boxes of flooring" + "to cover " + width * length + " square feet of floor");
