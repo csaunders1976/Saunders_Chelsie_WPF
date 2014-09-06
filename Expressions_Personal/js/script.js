@@ -9,6 +9,7 @@ Expressions Personal
 
 //Givens
 //Width of the room
+    //I need to create a variable that represents the width of the room. It has to have a prompt so the data can be entered.
 var width = prompt("What is the width of the room (in feet)?");
 //length of the room
 var length = prompt("What is the length of the room (in feet)?");
