@@ -1,6 +1,14 @@
 /*
 Chelsie Saunders
-September 5 ,2014
+September 7 ,2014
 Expressions Wacky
  */
-//How many days till Halloween?
+//Digital Cootie Catcher
+
+/* First set of variables 3, 4, 5, 6
+Second set of variables yellow, black, orange, red
+third set of variables pink, purple, green, blue
+
+
+
+ */
