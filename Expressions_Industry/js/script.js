@@ -27,6 +27,8 @@ console.log(workHours[3]);
 console.log(workHours[4]);
     */
 //I will have to create a result with all  of the data that is entered into the array added up and averaged.
-var totalHours = Number(workHours[0])+Number(workHours[1])+Number(workHours[2])+Number(workHours[3])+Number(workHours[4]);
-console.log(totalHours);
+var totalHours = Number(workHours[0]) + Number(workHours[1]) + Number(workHours[2]) + Number(workHours[3]) + Number(workHours[4]);
+//console.log(totalHours); I used this to test my totalHours variable
+
+//I will have to create a variable that averages the total hours.
 //I will have to create an alert that gives information of the total hours and the average work day.
