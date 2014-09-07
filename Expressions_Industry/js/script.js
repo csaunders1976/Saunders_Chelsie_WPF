@@ -11,3 +11,5 @@ This program is made to help me input this information with ease and average the
 //Givens
 //I need to create an array that will hold the hours worked each day
 //I need to create a prompt for each day of the working week. I will need it to enter data for each index of the array
+//I will have to all of the data that is entered into the array added up and averaged.
+//I will have to create an alert that gives information of the total hours and the average work day.
