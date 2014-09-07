@@ -36,4 +36,4 @@ var average = totalHours/5;
 
 //I will have to create an alert that gives information of the total hours and the average work day.
 //What I need to print out, you worked a total of X hour this week. That is an average of x hours a day.
-alert("You worked a total of " +totalHours+  "hours this week. That is an average of " +average+ " hours a day.");
+alert("You worked a total of " +totalHours+  " hours this week. That is an average of " +average+ " hours a day.");
