@@ -31,4 +31,5 @@ var totalHours = Number(workHours[0]) + Number(workHours[1]) + Number(workHours[
 //console.log(totalHours); I used this to test my totalHours variable
 
 //I will have to create a variable that averages the total hours.
+var average = totalHours/5;
 //I will have to create an alert that gives information of the total hours and the average work day.
