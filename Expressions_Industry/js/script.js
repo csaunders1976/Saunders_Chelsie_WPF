@@ -1,7 +1,7 @@
 /*
 Chelsie Saunders
-September 5 ,2014
- Expressions Industry
+September 6 ,2014
+Expressions Industry
  */
 
 //How much am I working?
@@ -19,6 +19,7 @@ workHours[1] = prompt("How many hours did you work on Tuesday?");
 workHours[2] = prompt("How many hours did you work on Wednesday?");
 workHours[3] = prompt("How many hours did you work on Thursday?");
 workHours[4] = prompt("How many hours did you work on Friday?");
+
 /*------I used these logs to test my prompts
 console.log(workHours[0]);
 console.log(workHours[1]);
@@ -35,6 +36,6 @@ var average = totalHours/5;
 //console.log(average); I used this to test my average variable
 
 //I will have to create an alert that gives information of the total hours and the average work day.
-//What I need to print out, you worked a total of X hour this week. That is an average of x hours a day.
-alert("You worked a total of " +totalHours+  " hours this week. That is an average of " +average+ " hours a day.");
-console.log("You worked a total of " +totalHours+  " hours this week. That is an average of " +average+ " hours a day.");
+//What I need to print out: you worked a total of X hour this week. That is an average of x hours a day.
+alert("You worked a total of " + totalHours + " hours this week. That is an average of " + average + " hours a day.");
+console.log("You worked a total of " + totalHours +  " hours this week. That is an average of " + average + " hours a day.");
