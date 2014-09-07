@@ -12,3 +12,4 @@ third set of variables pink, purple, green, blue
 
 
  */
+var first = promt("Ask a yes or no question. "<b/>" Enter a number, 3, 4, 5 or 6  ");
