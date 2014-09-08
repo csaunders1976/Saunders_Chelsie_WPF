@@ -23,4 +23,12 @@ var moon = 0.16;
 
 //I will have to create a result prompt for each planet.
 
-prompt("You weigh " +mercury*weight +"lbs on Mercury");
+alert("You weigh " +mercury*weight +"lbs on Mercury");
+alert("You weigh " +venus*weight +"lbs on Venus");
+alert("You weigh " +mars*weight +"lbs on Mars");
+alert("You weigh " +jupiter*weight +"lbs on Jupiter");
+alert("You weigh " +saturn*weight +"lbs on Saturn");
+alert("You weigh " +uranus*weight +"lbs on Uranus");
+alert("You weigh " +pluto*weight +"lbs on Pluto");
+alert("You weigh " +neptune*weight +"lbs on Neptune");
+alert("You weigh " +moon*weight +"lbs on Moon");
