@@ -20,3 +20,5 @@ var uranus = 0.89;
 var pluto =  0.06;
 var neptune = 1.12;
 var moon = 0.16;
+//I will have to create the result variable that will be printed out on the console and the final alert
+var result = weight*X;
