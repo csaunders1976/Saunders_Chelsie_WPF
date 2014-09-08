@@ -11,8 +11,12 @@ Expressions Wacky
 var weight = prompt("How much do you weigh in pounds?");
 console.log(weight);
 
+//I need to create the formula to calculate the weight on each planet.... Weight = Mass x Surface gravity
+
+//This is the surface gravity for each plant
 var mercury = 0.38;
 var venus = 0.91;
+var earth = 1;
 var mars = 0.38;
 var jupiter = 2.36;
 var saturn = 0.91;
@@ -21,14 +25,17 @@ var pluto =  0.06;
 var neptune = 1.12;
 var moon = 0.16;
 
-//I will have to create a result prompt for each planet.
+var mass = weight/earth;
+console.log(mass);
 
-alert("You weigh " +mercury*weight +"lbs on Mercury");
-alert("You weigh " +venus*weight +"lbs on Venus");
-alert("You weigh " +mars*weight +"lbs on Mars");
-alert("You weigh " +jupiter*weight +"lbs on Jupiter");
-alert("You weigh " +saturn*weight +"lbs on Saturn");
-alert("You weigh " +uranus*weight +"lbs on Uranus");
-alert("You weigh " +pluto*weight +"lbs on Pluto");
-alert("You weigh " +neptune*weight +"lbs on Neptune");
-alert("You weigh " +moon*weight +"lbs on Moon");
+//I will have to create a result alert for each planet.
+
+alert("You weigh " +mercury*mass +"lbs on Mercury");
+alert("You weigh " +venus*mass +"lbs on Venus");
+alert("You weigh " +mars*mass +"lbs on Mars");
+alert("You weigh " +jupiter*mass +"lbs on Jupiter");
+alert("You weigh " +saturn*mass +"lbs on Saturn");
+alert("You weigh " +uranus*mass +"lbs on Uranus");
+alert("You weigh " +pluto*mass +"lbs on Pluto");
+alert("You weigh " +neptune*mass +"lbs on Neptune");
+alert("You weigh " +moon*mass +"lbs on Moon");
