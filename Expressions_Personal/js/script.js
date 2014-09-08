@@ -19,7 +19,9 @@ var box = 13;
 //variable for result
     //This is where I need create my equation.
 var result = width*length/box;
+
 //What needs to be printed out in the console and the alert
+//I can't buy a percentage of a box so I read ahead on how to round numbers up. I also am lacking in the commit requirements for this project so I am going to have to complicate things.
 //"You will require " + result + " boxes of flooring" + "to cover " + x + "square feet of floor"
-alert("You will require " + result + " boxes of flooring to cover " + width * length + " square feet of floor.");
-console.log("You will require " + result + " boxes of flooring to cover " + width * length + " square feet of floor.");
+alert("You will require " + Math.ceil(result) + " boxes of flooring to cover " + width * length + " square feet of floor.");
+console.log("You will require " + Math.ceil(result) + " boxes of flooring to cover " + width * length + " square feet of floor.");
