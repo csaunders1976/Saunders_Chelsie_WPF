@@ -20,5 +20,7 @@ var uranus = 0.89;
 var pluto =  0.06;
 var neptune = 1.12;
 var moon = 0.16;
+//I will have to create a prompt to collect the potential planet
+var planet = prompt("Which hevenly body do you want to find out what you weigh on? \n Enter mercury, venus, mars jupiter, saturn, uranus, neptune, pluto, or moon? \n please do not capitalize the planets");
 //I will have to create the result variable that will be printed out on the console and the final alert
 var result = weight*X;
