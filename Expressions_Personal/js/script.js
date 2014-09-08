@@ -25,3 +25,7 @@ var result = width*length/box;
 //"You will require " + result + " boxes of flooring" + "to cover " + x + "square feet of floor"
 alert("You will require " + Math.ceil(result) + " boxes of flooring to cover " + width * length + " square feet of floor.");
 console.log("You will require " + Math.ceil(result) + " boxes of flooring to cover " + width * length + " square feet of floor.");
+
+//I am going to add up the price and tax so I can get the commit requirements filled
+//I will have to create a variable for the price of each box of flooring.
+var boxPrice = 27.50;
