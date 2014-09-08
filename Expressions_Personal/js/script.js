@@ -29,3 +29,8 @@ console.log("You will require " + Math.ceil(result) + " boxes of flooring to cov
 //I am going to add up the price and tax so I can get the commit requirements filled
 //I will have to create a variable for the price of each box of flooring.
 var boxPrice = 27.50;
+// I need to create a varialbe for the sales tax rate.
+var salesTax = 4.7;
+//I need to create a alert and console log that gives the total cost of the flooring
+alert("The total cost of the flooring will be " + x + "without tax and "+ x + " with sales tax.");
+console.log();
