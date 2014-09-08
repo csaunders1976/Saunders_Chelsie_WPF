@@ -37,4 +37,3 @@ var tax = Math.ceil(result)*boxPrice*salesTax/100;
 //I need to create a alert and console log that gives the total cost of the flooring
 alert("The total cost of the flooring will be $" + Number(Math.ceil(result)*boxPrice).toFixed(2) + " without tax and $"+ Number(Math.ceil(result)*boxPrice+tax).toFixed(2) + " with sales tax.");
 console.log("The total cost of the flooring will be $" + Number(Math.ceil(result)*boxPrice).toFixed(2) + " without tax and $"+ Number(Math.ceil(result)*boxPrice+tax).toFixed(2) + " with sales tax.");
-console.log(tax);
