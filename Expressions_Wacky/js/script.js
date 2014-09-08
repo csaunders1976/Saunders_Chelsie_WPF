@@ -9,6 +9,7 @@ Expressions Wacky
 //Givens
 //I will have to create a prompt that requests your weight
 var weight = prompt("How much do you weigh in pounds?");
+console.log(weight);
 //I will have to create variable that contain the equations for each planet
 var mercury;
 var venus;
@@ -17,3 +18,4 @@ var jupiter;
 var saturn;
 var uranus;
 var pluto;
+var moon = 1/6;
