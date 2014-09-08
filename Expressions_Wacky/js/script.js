@@ -10,12 +10,14 @@ Expressions Wacky
 //I will have to create a prompt that requests your weight
 var weight = prompt("How much do you weigh in pounds?");
 console.log(weight);
-//I will have to create variable that contain the equations for each planet
-var mercury;
-var venus;
-var mars;
-var jupiter;
-var saturn;
-var uranus;
-var pluto;
-var moon = 1/6;
+//I will have to create variable that contain the equations for each planet. This will require the a number that compares the gravitational pull of each planet compared to Earth.
+var mercury = 0.38;
+var venus = 0.91;
+var mars = 0.38;
+var jupiter = 2.36;
+var saturn = 0.91;
+var uranus = 0.89;
+var pluto =  0.06;
+var moon = 0.16;
+
+//Neptune	1.12	164.8 Earth years
