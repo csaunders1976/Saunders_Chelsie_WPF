@@ -32,8 +32,8 @@ var boxPrice = 27.50;
 // I need to create a varialbe for the sales tax rate.
 var salesTax = 4.7;
 //I need to create a variable that gives the sales tax.
-var tax = boxPrice*salesTax/100;
-console.log(tax);
+var tax = Math.ceil(result)*boxPrice*salesTax/100;
+
 //I need to create a alert and console log that gives the total cost of the flooring
-//alert("The total cost of the flooring will be " + x + "without tax and "+ x + " with sales tax.");
-//console.log();
+alert("The total cost of the flooring will be $" + Math.ceil(result)*boxPrice + " without tax and $"+ Math.ceil(result)*boxPrice+tax + " with sales tax.");
+console.log("The total cost of the flooring will be $" + Math.ceil(result)*boxPrice + " without tax and $"+ Math.ceil(result)*boxPrice+tax + " with sales tax.");
