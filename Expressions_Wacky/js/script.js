@@ -9,11 +9,11 @@ Expressions Wacky
 //Givens
 //I will have to create a prompt that requests your weight
 var weight = prompt("How much do you weigh in pounds?");
-console.log(weight);
+console.log("This is how much you weigh = "+weight);
 
 //I need to create the formula to calculate the weight on each planet.... Weight = Mass x Surface gravity
 
-//This is the surface gravity for each plant
+//This is the surface gravity for each planet
 var mercury = 0.38;
 var venus = 0.91;
 var earth = 1;
@@ -26,7 +26,7 @@ var neptune = 1.12;
 var moon = 0.16;
 
 var mass = weight/earth;
-console.log(mass);
+console.log("This is your mass =" +mass".");
 
 //I will have to create a result alert for each planet.
 
