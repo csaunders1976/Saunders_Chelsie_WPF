@@ -18,6 +18,5 @@ var jupiter = 2.36;
 var saturn = 0.91;
 var uranus = 0.89;
 var pluto =  0.06;
+var neptune = 1.12;
 var moon = 0.16;
-
-//Neptune	1.12	164.8 Earth years
