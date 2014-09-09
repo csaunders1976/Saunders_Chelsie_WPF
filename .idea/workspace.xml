@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c0ef49-0c18-4a98-8c88-62870929f76b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/.idea/AssociatingJS.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditionals/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals/index.html" afterPath="$PROJECT_DIR$/Conditionals/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals/js/script.js" afterPath="$PROJECT_DIR$/Conditionals/js/script.js" />
     </list>
     <ignored path="Saunders_Chelsie_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +29,21 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25139666" vertical-offset="0" max-vertical-offset="716">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.2932961" vertical-offset="0" max-vertical-offset="716">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conditionals/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,6 +77,7 @@
         <option value="$PROJECT_DIR$/Expressions_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/Expressions_Personal/index.html" />
         <option value="$PROJECT_DIR$/Expressions_Personal/js/script.js" />
+        <option value="$PROJECT_DIR$/Conditionals/index.html" />
         <option value="$PROJECT_DIR$/Conditionals/js/script.js" />
       </list>
     </option>
@@ -493,10 +495,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25139666" vertical-offset="0" max-vertical-offset="716">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.2932961" vertical-offset="0" max-vertical-offset="716">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
