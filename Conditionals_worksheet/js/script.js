@@ -23,9 +23,11 @@ var result;
 if(convert === "F"){
    result = degree *(9/5)+32;
     alert("The temperature is "+result+" degrees Fahrenheit.");
+    console.log("The temperature is "+result+" degrees Fahrenheit.");
 }else{
    result = (degree-32) * 5/9;
     alert("The temperature is " +result+ " degrees Celsius");
+    console.log("The temperature is " +result+ " degrees Celsius");
 }
 
 //Celsius to Fahrenheit:   (°C × 9/5) + 32 = °F
@@ -49,7 +51,7 @@ whether they should stop now for gas or not.*/
 //Gas efficiency of the car (in mpg)
 var mpg = 22;
 // Gauge reading of the gas tank (in %)
-var gauge = 50;
+var gauge = prompt("What percentage do you have in your tank?");
 //Car’s gas tank capacity (in gallons)
 var tank = 20;
 
@@ -59,8 +61,10 @@ console.log(risk);
 //Result To Print Out:
 if(risk >= 200){
     alert( "Yes, you can make it without stopping for gas!");
+    console.log( "Yes, you can make it without stopping for gas!");
 }else{
     alert("You only have "+gas+ " gallons of gas in your tank, better get gas now while you can!");
+    console.log("You only have "+gas+ " gallons of gas in your tank, better get gas now while you can!");
 }
 
 //------------------------------------------
@@ -91,7 +95,7 @@ Use the FullSail Grade scale.
 
 //    Given:
 //Grade (in percent)
-var grade = 89;
+var grade = prompt("What is your current percentage in this class?");
 var letter;
 if(grade >= 95){
     letter = "A+";
@@ -112,6 +116,7 @@ if(grade >= 95){
 }
 //Result To Print Out:
 alert("You have a " +grade+"%, which means you have earned a(n) "+letter+" in the class!");
+console.log("You have a " +grade+"%, which means you have earned a(n) "+letter+" in the class!");
 //---------------------------------------------
 //***Check the Login
 
@@ -134,7 +139,11 @@ Result To Print Out:
 
 /***Tire Pressure I
 
-To meet to maintenance standards a car’s front two tires should have the same pressure and the back two tires should have the same pressure.  But the front tires and the rear tires can have different pressure than each other, so it is not necessary for all four tires’ pressure to be the same. Create a single conditional that would determine if the tires of a given car are up to spec.
+To meet to maintenance standards a car’s front two tires should have the
+ same pressure and the back two tires should have the same pressure.
+ But the front tires and the rear tires can have different pressure than each other,
+ so it is not necessary for all four tires’ pressure to be the same.
+ Create a single conditional that would determine if the tires of a given car are up to spec.
 
 
     Given:
@@ -144,7 +153,9 @@ Pressure for each tire of the car (in psi) in an array.
 
 /***Movie Ticket Price
 
-/*The local movie theater in town has a ticket price of $12.00 but if you are a senior (55 and older), under 10 you get the discounted price of $7.00. In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
+/*The local movie theater in town has a ticket price of $12.00 but if you are a senior (55 and older),
+ under 10 you get the discounted price of $7.00.
+ In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
     Determine which of the two prices the customer is eligible for.*/
 
 /*Given:
