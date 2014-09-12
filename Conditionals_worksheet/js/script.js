@@ -1,6 +1,6 @@
 /*
 Chelsie Saunders
-September 11 ,2014
+September 12 ,2014
 Conditionals_worksheet
  */
 
@@ -57,7 +57,6 @@ var tank = 20;
 
 var gas = tank*gauge/100;
 var risk = gas * mpg;
-console.log(risk);
 //Result To Print Out:
 if(risk >= 200){
     alert( "Yes, you can make it without stopping for gas!");
@@ -120,21 +119,26 @@ console.log("You have a " +grade+"%, which means you have earned a(n) "+letter+"
 //---------------------------------------------
 //***Check the Login
 
-/*Make sure the user has the correct username and password.
+/* Make sure the user has the correct username and password.
 If the username doesn’t match then a specific message for that should be printed to the console.
 If the password doesn’t match a message should appear for that, etc. Only one error message should appear.
  */
 
-/*    Given:
-Username entered by user
-Password entered by user
-Correct username
-Correct password
-Result To Print Out:
-    “Welcome, (place their username here)!”  - if the username and password is correct
-“User not found. Try again.” -if the username does not match
-“Password does not match our records.”  -if the username matches but the password does not*/
-
+//    Given:
+//Username entered by user
+var userName = prompt("What is your username?");
+console.log(userName);
+//Password entered by user
+var userPassword = prompt("What is your password?");
+console.log(userPassword);
+//Correct username
+var correctUserName = "JoeBlow";
+//Correct password
+var correctPassword = "I Love Cheese";
+//Result To Print Out:
+alert("Welcome, (place their username here)!”  - if the username and password is correct");
+alert("User not found. Try again.” -if the username does not match");
+alert("Password does not match our records.”  -if the username matches but the password does not");
 /******Group 3: Multiple Conditions*****/
 
 /***Tire Pressure I
