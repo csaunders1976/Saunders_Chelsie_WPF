@@ -54,8 +54,12 @@ var gauge = .25;
 var tank = 15;
 
 //Result To Print Out:
-    “Yes, you can make it without stopping for gas!”
-    or “You only have X gallons of gas in your tank, better get gas now while you can!”*/
+if(){
+    alert( "Yes, you can make it without stopping for gas!");
+}else{
+    alert("You only have X gallons of gas in your tank, better get gas now while you can!");
+}
+
 //------------------------------------------
 //*******************************************
 /*****Group 2: Multiple Results*****/
