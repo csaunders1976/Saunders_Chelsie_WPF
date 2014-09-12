@@ -15,7 +15,7 @@ Conditionals_worksheet
 //Givens:
 
 //Unit (a string holding an “F” or a “C”)
-var convert = prompt("Would you like to convert the temperature to Fahrenheit (enter F) or Celsius (enter C)?");
+/*var convert = prompt("Would you like to convert the temperature to Fahrenheit (enter F) or Celsius (enter C)?");
 
 //Degrees (in F or C)
 var degree = prompt("What degree do you want to convert?");
@@ -49,7 +49,7 @@ whether they should stop now for gas or not.*/
 
 //    Given:
 //Gas efficiency of the car (in mpg)
-var mpg = 22;
+/*var mpg = 22;
 // Gauge reading of the gas tank (in %)
 var gauge = prompt("What percentage do you have in your tank?");
 //Car’s gas tank capacity (in gallons)
@@ -94,7 +94,7 @@ Use the FullSail Grade scale.
 
 //    Given:
 //Grade (in percent)
-var grade = prompt("What is your current percentage in this class?");
+/*var grade = prompt("What is your current percentage in this class?");
 var letter;
 if(grade >= 95){
     letter = "A+";
@@ -126,7 +126,7 @@ If the password doesn’t match a message should appear for that, etc. Only one 
 
 //    Given:
 //Username entered by user
-var userName = prompt("What is your username?");
+/*****var userName = prompt("What is your username?");
 console.log(userName);
 //Password entered by user
 var userPassword = prompt("What is your password?");
@@ -145,7 +145,7 @@ if(userName === correctUserName && userPassword === correctPassword){
 }else if (userName === correctUserName && userPassword != correctPassword) {
     alert("Password does not match our records."); //-if the username matches but the password does not"
     console.log("Password does not match our records."); //-if the username matches but the password does not"
-}
+}*/
 //---------------------------------------------------------------
 /******Group 3: Multiple Conditions*****/
 
@@ -160,17 +160,17 @@ To meet to maintenance standards a car’s front two tires should have the
 
 //    Given:
 //Pressure for each tire of the car (in psi) in an array.
-var pressure = [];
-pressure[0] =prompt("What is the pressure of the front driver's-side tire?");
-pressure[1] =prompt("What is the pressure of the front passenger's-side tire?");
-pressure[2] =prompt("What is the pressure of the rear driver's-side tire?");
-pressure[3] =prompt("What is the pressure of the rear passenger's-side tire?");
+/******var pressure = [];
+pressure[0] = prompt("What is the pressure of the front driver's-side tire?");
+pressure[1] = prompt("What is the pressure of the front passenger's-side tire?");
+pressure[2] = prompt("What is the pressure of the rear driver's-side tire?");
+pressure[3] = prompt("What is the pressure of the rear passenger's-side tire?");
 //    Result To Print Out:
 if(pressure[0] === pressure [1] && pressure [2] === pressure[3]) {
     alert("The tires pass spec!");
 }else {
     alert("Get your tires checked out!");
-}
+}*****////
 
 //-----------------------------------------------------------------
 /***Movie Ticket Price
@@ -180,9 +180,13 @@ if(pressure[0] === pressure [1] && pressure [2] === pressure[3]) {
  In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
     Determine which of the two prices the customer is eligible for.*/
 
-/*Given:
-    Time of Movie (Assume whole numbers here)
-Age of the customer
-Result To Print Out:
-    “The ticket price is X”*/
+//Given:
+//Time of Movie (Assume whole numbers here)
+var time;
+//Age of the customer
+var age;
+//Ticket Price
+var ticketPrice;
+//Result To Print Out:
+alert("The ticket price is $"+ticketPrice+".");
 
