@@ -19,12 +19,12 @@ var convert = prompt("Would you like to convert the temperature to Fahrenheit (e
 
 //Degrees (in F or C)
 var degree = prompt("What degree do you want to convert?");
-
+var result;
 if(convert === "F"){
-   var result = degree *(9/5)+32;
+   result = degree *(9/5)+32;
     alert("The temperature is "+result+" degrees Fahrenheit.");
 }else{
-   var result = (degree-32) * 5/9;
+   result = (degree-32) * 5/9;
     alert("The temperature is " +result+ " degrees Celsius");
 }
 
@@ -94,10 +94,24 @@ Use the FullSail Grade scale.
 var grade = 89;
 var letter;
 if(grade >= 95){
+    letter = "A+";
+}else if (grade <= 94 && grade >= 90){
     letter = "A";
+}else if (grade <= 89 && grade >= 85){
+    letter = "B+";
+}else if (grade <= 84 && grade >= 80){
+    letter = "B";
+}else if (grade <= 79 && grade >= 76){
+    letter = "C+";
+}else if (grade <= 75 && grade >= 73){
+    letter = "C";
+}else if (grade <= 72 && grade >= 70){
+    letter = "D";
+}else{
+    letter = "F"
 }
 //Result To Print Out:
-alert("You have a X%, which means you have earned a(n) X in the class!");
+alert("You have a " +grade+"%, which means you have earned a(n) "+letter+" in the class!");
 //---------------------------------------------
 //***Check the Login
 
