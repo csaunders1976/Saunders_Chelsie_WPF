@@ -171,6 +171,7 @@ if(pressure[0] === pressure [1] && pressure [2] === pressure[3]) {
 }else {
     alert("Get your tires checked out!");
 }*****////
+//(pressure[0] === pressure [1] && pressure [2] === pressure[3]) ?  alert("The tires pass spec!") : alert("Get your tires checked out!");
 
 //-----------------------------------------------------------------
 /***Movie Ticket Price
@@ -182,11 +183,19 @@ if(pressure[0] === pressure [1] && pressure [2] === pressure[3]) {
 
 //Given:
 //Time of Movie (Assume whole numbers here)
-var time;
+var time = prompt("What time is your movie? (military time without \':\' ie. 1300 for 1:00pm)");
 //Age of the customer
-var age;
+var age = prompt("What is your age?");
 //Ticket Price
 var ticketPrice;
+if(age >= 55 || age < 10){
+    ticketPrice = 7.00;
+}else if(time >= 1500 && time <= 1700){
+    ticketPrice = 7.00;
+}else{
+    ticketPrice = 12.00;
+}
 //Result To Print Out:
 alert("The ticket price is $"+ticketPrice+".");
+
 
