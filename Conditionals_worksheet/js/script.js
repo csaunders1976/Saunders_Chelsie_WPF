@@ -47,17 +47,20 @@ whether they should stop now for gas or not.*/
 
 //    Given:
 //Gas efficiency of the car (in mpg)
-var mpg = 18;
+var mpg = 22;
 // Gauge reading of the gas tank (in %)
-var gauge = .25;
+var gauge = 50;
 //Car’s gas tank capacity (in gallons)
-var tank = 15;
+var tank = 20;
 
+var gas = tank*gauge/100;
+var risk = gas * mpg;
+console.log(risk);
 //Result To Print Out:
-if(){
+if(risk >= 200){
     alert( "Yes, you can make it without stopping for gas!");
 }else{
-    alert("You only have X gallons of gas in your tank, better get gas now while you can!");
+    alert("You only have "+gas+ " gallons of gas in your tank, better get gas now while you can!");
 }
 
 //------------------------------------------
