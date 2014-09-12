@@ -15,18 +15,18 @@ Conditionals_worksheet
 //Givens:
 
 //Unit (a string holding an “F” or a “C”)
-var convert = prompt("Would you like to convert the temperature to Fahrenheit (enter F) or Celsius (enter C)?");
+////var convert = prompt("Would you like to convert the temperature to Fahrenheit (enter F) or Celsius (enter C)?");
 
 //Degrees (in F or C)
-var degree = prompt("What degree do you want to convert?");
+////var degree = prompt("What degree do you want to convert?");
 
-if(degree === "F"){
+/***if(convert === "F"){
    var result = degree *(9/5)+32;
     alert("The temperature is "+result+" degrees Fahrenheit.");
 }else{
    var result = (degree-32) * 5/9;
     alert("The temperature is " +result+ " degrees Celsius");
-}
+}***/
 
 //Celsius to Fahrenheit:   (°C × 9/5) + 32 = °F
 //Fahrenheit to Celsius:   (°F − 32) x 5/9 = °C
@@ -37,6 +37,7 @@ if(degree === "F"){
 100C is 212F
 90F is 32.22C */
 
+//-----------------------------------------
 //***Last Chance for Gas!
 
 /*A driver has to determine if they can make it across the desert with their current fuel.
@@ -44,14 +45,19 @@ They are about to past the last gas station for the next 200 miles and they need
 whether they should stop now for gas or not.*/
 
 
-/*    Given:
-Gas efficiency of the car (in mpg)
-Gauge reading of the gas tank (in %)
-Car’s gas tank capacity (in gallons)
-Result To Print Out:
+//    Given:
+//Gas efficiency of the car (in mpg)
+var mpg = 18;
+// Gauge reading of the gas tank (in %)
+var gauge = .25;
+//Car’s gas tank capacity (in gallons)
+var tank = 15;
+
+//Result To Print Out:
     “Yes, you can make it without stopping for gas!”
     or “You only have X gallons of gas in your tank, better get gas now while you can!”*/
-
+//------------------------------------------
+//*******************************************
 /*****Group 2: Multiple Results*****/
 
 //***Grade Letter Calculator
