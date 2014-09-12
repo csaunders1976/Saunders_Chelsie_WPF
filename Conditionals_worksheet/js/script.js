@@ -136,9 +136,17 @@ var correctUserName = "JoeBlow";
 //Correct password
 var correctPassword = "I Love Cheese";
 //Result To Print Out:
-alert("Welcome, (place their username here)!”  - if the username and password is correct");
-alert("User not found. Try again.” -if the username does not match");
-alert("Password does not match our records.”  -if the username matches but the password does not");
+if(userName === correctUserName && userPassword === correctPassword){
+    alert("Welcome, "+userName+"!"); //-if the username and password is correct
+    console.log("Welcome, "+userName+"!"); //-if the username and password is correct
+}else if (userName != correctUserName && userPassword === correctPassword){
+    alert("User not found. Try again.");  //-if the username does not match
+    console.log("User not found. Try again.");  //-if the username does not match
+}else if (userName === correctUserName && userPassword != correctPassword) {
+    alert("Password does not match our records."); //-if the username matches but the password does not"
+    console.log("Password does not match our records."); //-if the username matches but the password does not"
+}
+//---------------------------------------------------------------
 /******Group 3: Multiple Conditions*****/
 
 /***Tire Pressure I
