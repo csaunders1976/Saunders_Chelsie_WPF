@@ -161,10 +161,18 @@ To meet to maintenance standards a car’s front two tires should have the
 //    Given:
 //Pressure for each tire of the car (in psi) in an array.
 var pressure = [];
+pressure[0] =prompt("What is the pressure of the front driver's-side tire?");
+pressure[1] =prompt("What is the pressure of the front passenger's-side tire?");
+pressure[2] =prompt("What is the pressure of the rear driver's-side tire?");
+pressure[3] =prompt("What is the pressure of the rear passenger's-side tire?");
 //    Result To Print Out:
-alert("The tires pass spec!"); 
-alert("Get your tires checked out!");
+if(pressure[0] === pressure [1] && pressure [2] === pressure[3]) {
+    alert("The tires pass spec!");
+}else {
+    alert("Get your tires checked out!");
+}
 
+//-----------------------------------------------------------------
 /***Movie Ticket Price
 
 /*The local movie theater in town has a ticket price of $12.00 but if you are a senior (55 and older),
