@@ -15,18 +15,18 @@ Conditionals_worksheet
 //Givens:
 
 //Unit (a string holding an “F” or a “C”)
-////var convert = prompt("Would you like to convert the temperature to Fahrenheit (enter F) or Celsius (enter C)?");
+var convert = prompt("Would you like to convert the temperature to Fahrenheit (enter F) or Celsius (enter C)?");
 
 //Degrees (in F or C)
-////var degree = prompt("What degree do you want to convert?");
+var degree = prompt("What degree do you want to convert?");
 
-/***if(convert === "F"){
+if(convert === "F"){
    var result = degree *(9/5)+32;
     alert("The temperature is "+result+" degrees Fahrenheit.");
 }else{
    var result = (degree-32) * 5/9;
     alert("The temperature is " +result+ " degrees Celsius");
-}***/
+}
 
 //Celsius to Fahrenheit:   (°C × 9/5) + 32 = °F
 //Fahrenheit to Celsius:   (°F − 32) x 5/9 = °C
@@ -73,15 +73,32 @@ if(risk >= 200){
 Determine the appropriate letter grade for that number using conditional statements.
  */
 
+/*
+ Full Sail Grade Scales
+ A+ 95-100  4.0
+ A  90-94   3.5
+ B+ 85-89   3.0
+ B  80-84   2.5
+ C+ 76-79   2.0
+ C  73-75   1.5
+ D  70-72   1.0
+ F  0-69    0.0
+ */
+
 /*    Assume grades are whole numbers that never go below 0 or above 100.
 Use the FullSail Grade scale.
-    There should be only one print out to the console.
+    There should be only one print out to the console.*/
 
-    Given:
-Grade (in percent)
-Result To Print Out:
-    “You have a X%, which means you have earned a(n) X in the class!”*/
-
+//    Given:
+//Grade (in percent)
+var grade = 89;
+var letter;
+if(grade >= 95){
+    letter = "A";
+}
+//Result To Print Out:
+alert("You have a X%, which means you have earned a(n) X in the class!");
+//---------------------------------------------
 //***Check the Login
 
 /*Make sure the user has the correct username and password.
