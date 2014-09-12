@@ -20,6 +20,16 @@ var convert = prompt("Would you like to convert the temperature to Fahrenheit (e
 //Degrees (in F or C)
 var degree = prompt("What degree do you want to convert?");
 
+if(degree = "F"){
+   var result = (convert*(9/5))+32;
+    alert("The temperature is "+result+" degrees Fahrenheit.");
+}else{
+   var result = (convert-32)*(5/9);
+    alert("The temperature is " +result+ " degrees Celsius");
+}
+
+//Celsius to Fahrenheit:   (°C × 9/5) + 32 = °F
+//Fahrenheit to Celsius:   (°F − 32) x 5/9 = °C
 
 //Result:
 alert("The temperature is X degrees Celsius.” Or “The temperature is X degrees Fahrenheit.");
