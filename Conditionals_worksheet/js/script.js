@@ -4,52 +4,35 @@ September 12 ,2014
 Conditionals_worksheet
  */
 
-/*****Group 1: Expressions with Conditionals*****/
+/*****    Group 1: Expressions with Conditionals   *****/
 
-//***Celsius to Fahrenheit converter
-
-/*Convert a temperature to either degrees Celsius or degrees Fahrenheit depending on what the user has entered.
- If the user puts a “C” for the unit, the calculator should convert to Celsius. If the user puts “F” for the unit,
- the calculator should convert to Fahrenheit.*/
+/*****    Celsius to Fahrenheit converter     ******/
 
 //Givens:
-
-//Unit (a string holding an “F” or a “C”)
-/*var convert = prompt("Would you like to convert the temperature to Fahrenheit (enter F) or Celsius (enter C)?");
+//Unit (a string holding an “F” or a “C”) --I created a prompt to find out if the user wants the conversion to be
+var convert = prompt("Would you like to convert the temperature to Fahrenheit (enter F) or Celsius (enter C)?");
 
 //Degrees (in F or C)
 var degree = prompt("What degree do you want to convert?");
+//create variable for the result
 var result;
 if(convert === "F"){
-   result = degree *(9/5)+32;
+   result = degree *(9/5)+32;  //this is the formula for C to F
     alert("The temperature is "+result+" degrees Fahrenheit.");
     console.log("The temperature is "+result+" degrees Fahrenheit.");
 }else{
-   result = (degree-32) * 5/9;
+   result = (degree-32) * 5/9;  //this is the formula for F to C
     alert("The temperature is " +result+ " degrees Celsius");
     console.log("The temperature is " +result+ " degrees Celsius");
 }
 
-//Celsius to Fahrenheit:   (°C × 9/5) + 32 = °F
-//Fahrenheit to Celsius:   (°F − 32) x 5/9 = °C
-
-
-/* Data Sets to Test: (Note that data sets are not the only numbers that should work with your code.)
-32F is 0C
-100C is 212F
-90F is 32.22C */
 
 //-----------------------------------------
 //***Last Chance for Gas!
 
-/*A driver has to determine if they can make it across the desert with their current fuel.
-They are about to past the last gas station for the next 200 miles and they need to determine
-whether they should stop now for gas or not.*/
-
-
 //    Given:
 //Gas efficiency of the car (in mpg)
-/*var mpg = 22;
+var mpg = 22;
 // Gauge reading of the gas tank (in %)
 var gauge = prompt("What percentage do you have in your tank?");
 //Car’s gas tank capacity (in gallons)
@@ -68,13 +51,9 @@ if(risk >= 200){
 
 //------------------------------------------
 //*******************************************
-/*****Group 2: Multiple Results*****/
+/*****        Group 2: Multiple Results      *****/
 
-//***Grade Letter Calculator
-
-/*A student earns a number grade at the conclusion of a course at Full Sail.
-Determine the appropriate letter grade for that number using conditional statements.
- */
+/***    Grade Letter Calculator        ***/
 
 /*
  Full Sail Grade Scales
@@ -88,13 +67,9 @@ Determine the appropriate letter grade for that number using conditional stateme
  F  0-69    0.0
  */
 
-/*    Assume grades are whole numbers that never go below 0 or above 100.
-Use the FullSail Grade scale.
-    There should be only one print out to the console.*/
-
 //    Given:
 //Grade (in percent)
-/*var grade = prompt("What is your current percentage in this class?");
+var grade = prompt("What is your current percentage in this class?");
 var letter;
 if(grade >= 95){
     letter = "A+";
@@ -117,16 +92,11 @@ if(grade >= 95){
 alert("You have a " +grade+"%, which means you have earned a(n) "+letter+" in the class!");
 console.log("You have a " +grade+"%, which means you have earned a(n) "+letter+" in the class!");
 //---------------------------------------------
-//***Check the Login
-
-/* Make sure the user has the correct username and password.
-If the username doesn’t match then a specific message for that should be printed to the console.
-If the password doesn’t match a message should appear for that, etc. Only one error message should appear.
- */
+/***        Check the Login           ***/
 
 //    Given:
 //Username entered by user
-/*****var userName = prompt("What is your username?");
+var userName = prompt("What is your username?");
 console.log(userName);
 //Password entered by user
 var userPassword = prompt("What is your password?");
@@ -145,57 +115,48 @@ if(userName === correctUserName && userPassword === correctPassword){
 }else if (userName === correctUserName && userPassword != correctPassword) {
     alert("Password does not match our records."); //-if the username matches but the password does not"
     console.log("Password does not match our records."); //-if the username matches but the password does not"
-}*/
+}
 //---------------------------------------------------------------
-/******Group 3: Multiple Conditions*****/
+/****************   Group 3: Multiple Conditions   ****************/
 
-/***Tire Pressure I
-
-To meet to maintenance standards a car’s front two tires should have the
- same pressure and the back two tires should have the same pressure.
- But the front tires and the rear tires can have different pressure than each other,
- so it is not necessary for all four tires’ pressure to be the same.
- Create a single conditional that would determine if the tires of a given car are up to spec.*/
-
+/*******  Tire Pressure I ********/
 
 //    Given:
 //Pressure for each tire of the car (in psi) in an array.
-/******var pressure = [];
+var pressure = [];
+//I need to create a prompt for each tire pressure from the user
 pressure[0] = prompt("What is the pressure of the front driver's-side tire?");
 pressure[1] = prompt("What is the pressure of the front passenger's-side tire?");
 pressure[2] = prompt("What is the pressure of the rear driver's-side tire?");
 pressure[3] = prompt("What is the pressure of the rear passenger's-side tire?");
-//    Result To Print Out:
-if(pressure[0] === pressure [1] && pressure [2] === pressure[3]) {
-    alert("The tires pass spec!");
-}else {
-    alert("Get your tires checked out!");
-}*****////
-//(pressure[0] === pressure [1] && pressure [2] === pressure[3]) ?  alert("The tires pass spec!") : alert("Get your tires checked out!");
+
+//I created a ternary style conditional....just to see if I could do it ;)
+(pressure[0] === pressure [1] && pressure [2] === pressure[3]) ?  alert("The tires pass spec!") : alert("Get your tires checked out!");
 
 //-----------------------------------------------------------------
-/***Movie Ticket Price
+/********    Movie Ticket Price   ********/
 
-/*The local movie theater in town has a ticket price of $12.00 but if you are a senior (55 and older),
- under 10 you get the discounted price of $7.00.
- In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
-    Determine which of the two prices the customer is eligible for.*/
-
-//Given:
-//Time of Movie (Assume whole numbers here)
+//Given: I will create all the variables for the equation
+//Time of Movie (Assume whole numbers here) -- I will create a variable for the time of the movie
+    //it will require a prompt so I can find out what time the user wants to see the movie
 var time = prompt("What time is your movie? (military time without \':\' ie. 1300 for 1:00pm)");
-//Age of the customer
+
+//Age of the customer -- I will create a variable with prompt to find the users age
 var age = prompt("What is your age?");
-//Ticket Price
+
+//Ticket Price -- I will create a variable for the conditional statement
 var ticketPrice;
-if(age >= 55 || age < 10){
+
+//I will create my conditional statement
+if(age >= 55 || age < 10){  //this condition measures if the age of the user qualifies them for the discounted ticket
     ticketPrice = 7.00;
-}else if(time >= 1500 && time <= 1700){
+}else if(time >= 1500 && time <= 1700){ //this condition measures if the time of the movie qualifies for the discount
     ticketPrice = 7.00;
 }else{
     ticketPrice = 12.00;
 }
 //Result To Print Out:
-alert("The ticket price is $"+ticketPrice+".");
-
+alert("The ticket price is $"+ticketPrice.toFixed(2)+".");
+console.log("The ticket price is $"+ticketPrice.toFixed(2)+".");
+//------------------------------------------------------------------
 
