@@ -82,3 +82,36 @@ for(var i=0; i<bowlOfFruit.length; i++){
 
 }
 console.log(totalNumPears+ " pears in our bowl");
+
+var userInput;
+userInput = prompt("Please type in your name:");
+
+//Test if the user left it blank
+
+while(userInput ===""){
+    //prompt the user to type in information again
+    userInput = prompt("Please type in your name: \n Please don't leave it blank.");
+}
+
+//Test if the variable is NOT a number!!
+
+//IsNaN(variable to test) - returns boolean
+console.log(isNaN(7));  //returns false
+console.log(isNaN("test")); //returns true
+
+var numberInput;
+numberInput = prompt("Enter a number");
+/*
+//validate that the user typed in a number
+while(isNaN(numberInput)){
+    //If user type in test this code will run
+    numberInput = prompt("Please enter only a number");
+}
+
+while(numberInput === ""){
+    numberInput = prompt("Please don't leave blank")
+}*/
+
+while(numberInput==="" || isNaN(numberInput)){
+    numberInput = prompt("Something went wrong, retype in only a number:")
+}
