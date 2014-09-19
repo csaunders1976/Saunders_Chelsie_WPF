@@ -10,7 +10,7 @@ Go To Training Week #3
 // Code a check to see how many pears are in a fruit bowl.
 //Array - hold multiple variables under one name - variables of variables
 
-var bowlOfFruit = ["apple", "banana", "pear", "peach", "pear", "apple","pear"];
+var bowlOfFruit = ["apple", "banana", "pear", "peach", "pear", "apple","pear", "banana","pear", "tomato","orange"];
 
 console.log(bowlOfFruit);
 
@@ -73,6 +73,12 @@ for(var i=0; i<bowlOfFruit.length; i++){
     console.log("Inside of For Loop");
     console.log(i);
     console.log(bowlOfFruit[i]);
+    //Test each item to see if it is a pear
+    if(bowlOfFruit[i] === "pear"){
+        // add to total number of pears
+        totalNumPears++;
+
+    }
 
 }
 console.log(totalNumPears+ " pears in our bowl");
