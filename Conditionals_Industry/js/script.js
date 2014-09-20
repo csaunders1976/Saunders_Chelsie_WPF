@@ -24,8 +24,13 @@ workHours[4] = prompt("How many hours did you work on Friday?");
 
 //------------------------------END OF LAST WEEKS WORK--------------------------------------//
 
+
+//I need to create a variable to collect the total number of hours worked
+var totalHours = 0;
+
 //I need to create a loop to add up the total amount of hours that I worked last week
 
-for(var i=0; i<workHours[i]; i++){
-    console.log(i);
+for(var i=0; i<workHours.length; i++){
+    console.log(Number(workHours[i]));
 }
+
