@@ -52,9 +52,11 @@ var totalHours = 0;
 //I need to create a loop to add up the total amount of hours that I worked last week
 
 for(var i=0; i<workHours.length; i++){
+    //This will add up the total hours by looping through each item of the array and adding it together
     totalHours = totalHours + Number(workHours[i]);
 }
 
+//I wanted to create a console log so I know how many total hours I worked this week
 console.log("You have worked a total of " +totalHours+ " hours this week.");
 
 //I have to create a conditional statement that tells me if I should keep working for this guy

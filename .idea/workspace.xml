@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="93c0ef49-0c18-4a98-8c88-62870929f76b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Industry/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Industry/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Personal/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Personal/js/script.js" />
     </list>
     <ignored path="Saunders_Chelsie_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.84090906" vertical-offset="0" max-vertical-offset="660">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -40,20 +41,8 @@
       <file leaf-file-name="week.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoToTrainingWeek3/js/week.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1830">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1157" max-vertical-offset="1830">
               <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="116" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.1589896" vertical-offset="467" max-vertical-offset="1140">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -99,8 +88,8 @@
         <option value="$PROJECT_DIR$/Conditionsl_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/GoToTrainingWeek3/week.html" />
         <option value="$PROJECT_DIR$/GoToTrainingWeek3/js/week.js" />
-        <option value="$PROJECT_DIR$/Conditionals_Personal/js/script.js" />
         <option value="$PROJECT_DIR$/Conditionals_Industry/js/script.js" />
+        <option value="$PROJECT_DIR$/Conditionals_Personal/js/script.js" />
       </list>
     </option>
   </component>
@@ -600,6 +589,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
           <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,6 +599,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79545456" vertical-offset="0" max-vertical-offset="660">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -655,10 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.6047548" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -667,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoToTrainingWeek3/js/week.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1830">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1157" max-vertical-offset="1830">
           <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="116" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -675,10 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1589896" vertical-offset="467" max-vertical-offset="1140">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.84090906" vertical-offset="0" max-vertical-offset="660">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
