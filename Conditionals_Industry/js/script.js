@@ -7,7 +7,7 @@ Conditionals Industry
 /*I have a client that owes me quite a bit of money. He tends to pay me very late. He also asks me to do more projects
 even when he has not paid me for the projects he has not paid for. He currently owes my over $2000 for a project I
 did in July. I am going to use a conditional to measure if I should continue to work for him or tell him to get bent
-depending on how many unpaid hours I have. I am going to use my Expressions_Industry exersize and expand on it so I create
+depending on how many unpaid hours I have. I am going to use my Expressions_Industry assignment and expand on it so I create
 the conditional. I know we are not suppose to use the same work as last week but I am going to justify it because the
 problem is different. Last week I was recording how many hours. This week I am measuring  how many hours qualify for
 continued work.*/
@@ -31,6 +31,7 @@ var totalHours = 0;
 //I need to create a loop to add up the total amount of hours that I worked last week
 
 for(var i=0; i<workHours.length; i++){
-    console.log(Number(workHours[i]));
+    totalHours = totalHours + Number(workHours[i]);
 }
 
+console.log(totalHours);
