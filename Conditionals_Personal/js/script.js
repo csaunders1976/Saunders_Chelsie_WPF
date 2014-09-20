@@ -28,8 +28,9 @@ while(homework ===""){
 
 //I will have to create a prompt in order to ask for the time of completion
 var time = prompt("What time did you finish your homework? (Military time in this format '1300' please.)");
+//I need to create a while loop to validate the prompt
 while(time==="" || isNaN(time)){
-    time = prompt("Something went wrong, retype in only a number:")
+    time = prompt("Something went wrong, retype in only a number.")
 }
 
 //this is my attempt at the ternary. I referred to line 9 for structure and line 15 for content.
