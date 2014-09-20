@@ -31,6 +31,7 @@ var thirdVar;
 if(firstVar === 1){
     // Second set of colors red, orange, yellow, black
     var colorOne = prompt("Pick (enter) a color: red, orange, yellow or black");
+    //while loop to validate prompt
     while(colorOne ==="") {
         //prompt the user to type in information again
         colorOne = prompt("Pick (enter) a color: red, orange, yellow or black. \n If you want to know your fortune you will have to answer the question ");
@@ -38,31 +39,48 @@ if(firstVar === 1){
         console.log("The second option you picked was "+colorOne+".");
         if(colorOne === "red" || "orange") {
             secondVar = prompt("Pick (enter) a color: red, orange, yellow or black");
+            //while loop to validate prompt
             while(secondVar ==="") {
                 //prompt the user to type in information again
                 secondVar = prompt("Pick (enter) a color: red, orange, yellow or black. \n If you want to know your fortune you will have to answer the question ");
             }
-            console.log("The third option you picked was "+secondVar+". ");
+            //console log to state third choice
+            console.log("The third option you picked was "+secondVar+".");
             if(secondVar ==="red"){
                 alert("The answer is No")
+                console.log("The answer is No")
             }else if(secondVar === "orange"){
                 alert("The answer is Yes")
+                console.log("The answer is Yes")
             }else if(secondVar === "yellow"){
                 alert("The answer is Maybe")
+                console.log("The answer is Maybe")
             }else{
                 alert("The answer is Not Sure")
+                console.log("The answer is Not Sure")
             }
 
         }else if(colorOne === "yellow" || "black"){
             secondVar = prompt("Pick (enter) another color: purple, green, blue, pink");
+            //while loop to validate prompt
+            while(secondVar ==="") {
+                //prompt the user to type in information again
+                secondVar = prompt("Pick (enter) another color: purple, green, blue, pink. \n If you want to know your fortune you will have to answer the question ");
+            }
+            //console log to state third choice
+            console.log("The third option you picked was "+secondVar+".");
             if(secondVar === "purple"){
                 alert("The answer is cloudy. Ask again Later")
+                console.log("The answer is cloudy. Ask again Later")
             }else if(secondVar === "green"){
                 alert("The answer is Definitely")
+                console.log("The answer is Definitely")
             }else if(secondVar === "blue"){
                 alert("The answer is Unlikely")
+                console.log("The answer is Unlikely")
             }else{
                 alert("The answer is Perhaps")
+                console.log("The answer is Perhaps");
             }
         }
 }else{
@@ -72,27 +90,47 @@ if(firstVar === 1){
         //prompt the user to type in information again
         thirdVar = prompt("Pick (enter) another color: purple, green, blue, pink \n You have to enter a color if you want to know your fortune.");
         }
+        //console log to state choice
+        console.log("The third option you picked was "+thirdVar+".");
         if(thirdVar === "purple" || "green"){
             thirdVar = prompt("Pick (enter) a color: red, orange, yellow or black");
+            while(thirdVar ===""){
+                //prompt the user to type in information again
+                thirdVar = prompt("Pick (enter) another color: red, orange, yellow, or black. \n You have to enter a color if you want to know your fortune.");
+            }
             if(thirdVar ==="red"){
                 alert("The answer is No");
+                console.log("The answer is No");
             }else if(thirdVar === "orange"){
                 alert("The answer is Yes");
+                console.log("The answer is Yes");
             }else if(thirdVar === "yellow"){
                 alert("The answer is Maybe");
+                console.log("The answer is Maybe");
             }else{
                 alert("The answer is Not Sure");
+                console.log("The answer is Not Sure");
             }
         }else{
             thirdVar = prompt("Pick (enter) another color: purple, green, blue, pink");
+            //while loop to validate prompt
+            while(thirdVar ===""){
+                //prompt the user to type in information again
+                thirdVar = prompt("Pick (enter) another color: purple, green, blue, or pink. \n You have to enter a color if you want to know your fortune.");
+            }
+            console.log("The third option you picked is "+thirdVar+".")
             if(thirdVar === "purple"){
                 alert("The answer is cloudy. Ask again Later");
+                console.log("The answer is cloudy. Ask again Later");
             }else if(thirdVar === "green"){
                 alert("The answer is Definitely");
+                console.log("The answer is Definitely");
             }else if(thirdVar === "blue"){
                 alert("The answer is Unlikely");
+                console.log("The answer is Unlikely");
             }else{
                 alert("The answer is Perhaps");
+                console.log("The answer is Perhaps");
             }
         }
 
