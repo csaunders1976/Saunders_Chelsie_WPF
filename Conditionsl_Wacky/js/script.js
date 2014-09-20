@@ -52,15 +52,9 @@ if(firstVar === 1){
                 alert("The answer is Perhaps")
             }
         }
- /*
-//-------------------------Fourth Question-------------------Option 1
 
 
-        }else{
-           */
-        }
-//-------------------------Third Question-------------------Option 2
-/*}else{
+}else{
     // second set of colors purple, green, blue, pink
     thirdVar = prompt("Pick (enter) another color: purple, green, blue, pink");
     while(thirdVar ===""){
@@ -70,22 +64,22 @@ if(firstVar === 1){
         if(thirdVar === "purple" || "green"){
 //-------------------------Fourth Question-------------------Option 1
             thirdVar = prompt("Pick (enter) a color: red, orange, yellow or black");
-            if(thirdVar ="red"){
+            if(thirdVar ==="red"){
                 alert("The answer is No");
-            }else if(thirdVar = "orange"){
+            }else if(thirdVar === "orange"){
                 alert("The answer is Yes");
-            }else if(thirdVar = "yellow"){
+            }else if(thirdVar === "yellow"){
                 alert("The answer is Maybe");
             }else{
                 alert("The answer is Not Sure");
             }
         }else{
             thirdVar = prompt("Pick (enter) another color: purple, green, blue, pink");
-            if(thirdVar ="purple"){
+            if(thirdVar === "purple"){
                 alert("The answer is cloudy. Ask again Later");
-            }else if(thirdVar = "green"){
+            }else if(thirdVar === "green"){
                 alert("The answer is Definitely");
-            }else if(thirdVar = "blue"){
+            }else if(thirdVar === "blue"){
                 alert("The answer is Unlikely");
             }else{
                 alert("The answer is Perhaps");
@@ -96,4 +90,3 @@ if(firstVar === 1){
 
 }
 
-*/
