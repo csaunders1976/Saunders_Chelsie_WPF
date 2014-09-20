@@ -17,75 +17,83 @@ while(num==="" || isNaN(num)){
     num = prompt("Something went wrong, retype in only a number:")
 }
 
+//Givens
 var firstVar = num % 2;
-//console.log(firstVariable);
+var secondVar;
+//var thirdVar;
 
 //-------------------------Third Question-------------------Option 1
-var secondVar;
+
+
 if(firstVar === 1){
     // Second set of colors red, orange, yellow, black
     var colorOne = prompt("Pick (enter) a color: red, orange, yellow or black");
-    while(colorOne ===""){
-        //prompt the user to type in information again
-        colorOne = prompt("Pick (enter) a color: red, orange, yellow or black \n You have to enter a color if you want to know your fortune.");
-    }
-        if(colorOne === "red" || "orange"){
-//-------------------------Fourth Question-------------------Option 1
+        if(colorOne === "red" || "orange") {
             secondVar = prompt("Pick (enter) a color: red, orange, yellow or black");
-                if(secondVar="red"){
-                    alert("The answer is No");
-                }else if(secondVar = "orange"){
-                    alert("The answer is Yes");
-                }else if(secondVar = "yellow"){
-                    alert("The answer is Maybe");
-                }else{
-                    alert("The answer is Not Sure");
-                }
-        }else{
+            if(secondVar ==="red"){
+                alert("The answer is No")
+            }else if(secondVar === "orange"){
+                alert("The answer is Yes")
+            }else if(secondVar === "yellow"){
+                alert("The answer is Maybe")
+            }else{
+                alert("The answer is Not Sure")
+            }
+
+        }else if(colorOne === "yellow" || "black"){
             secondVar = prompt("Pick (enter) another color: purple, green, blue, pink");
-                if(secondVar="purple"){
-                    alert("The answer is cloudy. Ask again Later");
-                }else if(secondVar = "green"){
-                    alert("The answer is Definitely");
-                }else if(secondVar = "blue"){
-                    alert("The answer is Unlikely");
-                }else{
-                    alert("The answer is Perhaps");
-                }
+            if(secondVar === "purple"){
+                alert("The answer is cloudy. Ask again Later")
+            }else if(secondVar === "green"){
+                alert("The answer is Definitely")
+            }else if(secondVar === "blue"){
+                alert("The answer is Unlikely")
+            }else{
+                alert("The answer is Perhaps")
+            }
+        }
+ /*
+//-------------------------Fourth Question-------------------Option 1
+
+
+        }else{
+           */
         }
 //-------------------------Third Question-------------------Option 2
-}else{
+/*}else{
     // second set of colors purple, green, blue, pink
-    var colorTwo = prompt("Pick (enter) another color: purple, green, blue, pink");
-    while(colorTwo ===""){
+    thirdVar = prompt("Pick (enter) another color: purple, green, blue, pink");
+    while(thirdVar ===""){
         //prompt the user to type in information again
-        colorTwo = prompt("Pick (enter) another color: purple, green, blue, pink \n You have to enter a color if you want to know your fortune.");
-        if(colorTwo === "purple" || "green"){
+        thirdVar = prompt("Pick (enter) another color: purple, green, blue, pink \n You have to enter a color if you want to know your fortune.");
+        }
+        if(thirdVar === "purple" || "green"){
 //-------------------------Fourth Question-------------------Option 1
-            secondVar = prompt("Pick (enter) a color: red, orange, yellow or black");
-            if(secondVar="red"){
+            thirdVar = prompt("Pick (enter) a color: red, orange, yellow or black");
+            if(thirdVar ="red"){
                 alert("The answer is No");
-            }else if(secondVar = "orange"){
+            }else if(thirdVar = "orange"){
                 alert("The answer is Yes");
-            }else if(secondVar = "yellow"){
+            }else if(thirdVar = "yellow"){
                 alert("The answer is Maybe");
             }else{
                 alert("The answer is Not Sure");
             }
         }else{
-            secondVar = prompt("Pick (enter) another color: purple, green, blue, pink");
-            if(secondVar="purple"){
+            thirdVar = prompt("Pick (enter) another color: purple, green, blue, pink");
+            if(thirdVar ="purple"){
                 alert("The answer is cloudy. Ask again Later");
-            }else if(secondVar = "green"){
+            }else if(thirdVar = "green"){
                 alert("The answer is Definitely");
-            }else if(secondVar = "blue"){
+            }else if(thirdVar = "blue"){
                 alert("The answer is Unlikely");
             }else{
                 alert("The answer is Perhaps");
             }
         }
-    }
+
 
 
 }
 
+*/
