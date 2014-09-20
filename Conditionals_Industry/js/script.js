@@ -12,17 +12,38 @@ the conditional. I know we are not suppose to use the same work as last week but
 problem is different. Last week I was recording how many hours. This week I am measuring  how many hours qualify for
 continued work.*/
 
-//--------------------------------WORK FROM LAST WEEK---------------------------------------//
 
-// I did have to make changes. I just needed the prompts from last week to build the array
+
+// I did have to make changes. I just needed the prompts from last week to build the array. That us all I used from
 var workHours = [];
-workHours[0] = prompt("How many hours did you work on Monday?");
-workHours[1] = prompt("How many hours did you work on Tuesday?");
-workHours[2] = prompt("How many hours did you work on Wednesday?");
-workHours[3] = prompt("How many hours did you work on Thursday?");
-workHours[4] = prompt("How many hours did you work on Friday?");
 
-//------------------------------END OF LAST WEEKS WORK--------------------------------------//
+workHours[0] = prompt("How many hours did you work on Monday?");
+//I will have to create while loops for each prompt
+while(workHours[0]==="" || isNaN(workHours[0])){
+    workHours[0] = prompt("Something went wrong, retype in only a number:")
+}
+
+workHours[1] = prompt("How many hours did you work on Tuesday?");
+while(workHours[1]==="" || isNaN(workHours[1])){
+    workHours[1] = prompt("Something went wrong, retype in only a number:")
+}
+
+workHours[2] = prompt("How many hours did you work on Wednesday?");
+while(workHours[2]==="" || isNaN(workHours[2])){
+    workHours[2] = prompt("Something went wrong, retype in only a number:")
+}
+
+workHours[3] = prompt("How many hours did you work on Thursday?");
+while(workHours[3]==="" || isNaN(workHours[3])){
+    workHours[3] = prompt("Something went wrong, retype in only a number:")
+}
+
+workHours[4] = prompt("How many hours did you work on Friday?");
+while(workHours[4]==="" || isNaN(workHours[4])){
+    workHours[4] = prompt("Something went wrong, retype in only a number:")
+}
+
+//------------------------------END OF VALIDATING PROMPTS--------------------------------------//
 
 
 //I need to create a variable to collect the total number of hours worked
@@ -45,6 +66,6 @@ if(totalHours >= 10){
     alert("You need to tell this guy your done working for him!");
     console.log("You need to tell this guy your done working for him!");
 }else{
-    alert("Be patient, you will have to be patient.");
+    alert("Be patient, you will have to keep working.");
     console.log("Be patient, you will have to keep working.");
 }
