@@ -34,7 +34,7 @@ for(var i=0; i<workHours.length; i++){
     totalHours = totalHours + Number(workHours[i]);
 }
 
-console.log(totalHours);
+console.log("You have worked a total of " +totalHours+ " hours this week.");
 
 //I have to create a conditional statement that tells me if I should keep working for this guy
 
@@ -46,5 +46,5 @@ if(totalHours >= 10){
     console.log("You need to tell this guy your done working for him!");
 }else{
     alert("Be patient, you will have to be patient.");
-    console.log("Be patient, you will have to be patient.");
+    console.log("Be patient, you will have to keep working.");
 }
