@@ -19,7 +19,7 @@ close friend and co-worker I have had difficulty concentrating.
 // I will create my givin's:
 
 //I will have to create a boolean for if my homework is completed
-var homework;
+var homework = prompt("Did you get your homework done? (true or false please)");
 
 //I will have to create a prompt in order to ask for the time of completion
 var time = prompt("What time did you finish your homework? (Military time in this format '1300' please.)");
