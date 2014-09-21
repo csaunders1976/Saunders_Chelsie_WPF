@@ -3,6 +3,7 @@ Chelsie Saunders
 September 21 ,2014
 Functions Screen-cast
  */
+//Function Invocation
 /*
 Basic structure of a function
 function functionName(){
@@ -20,3 +21,5 @@ function calcArea(){
     var area = width * height;
     console.log(area);
 }
+//calling the function
+calcArea();
