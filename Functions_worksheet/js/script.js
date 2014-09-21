@@ -43,7 +43,7 @@ function killerBee(w){
     return death;
 }
 
-var stings;
-
+var stings= killerBee(weight);
+console.log(stings);
 // Result to print to the console:
 // “It takes X bee stings to kill this animal.
