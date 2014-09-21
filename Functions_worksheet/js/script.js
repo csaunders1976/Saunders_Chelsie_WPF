@@ -40,6 +40,7 @@ function killerBee(w){
     //formula for calculating how many bee stings to kill
     var death = w/8.666666667;
 // Return: I need to return this value so I can get a result outside of this function
+    return death;
 }
 
 
