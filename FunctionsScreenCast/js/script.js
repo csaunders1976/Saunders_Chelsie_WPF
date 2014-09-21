@@ -3,7 +3,7 @@ Chelsie Saunders
 September 21 ,2014
 Functions Screen-cast
  */
-//Returning Values
+//Procedures
 /*
 Basic structure of a function
 function functionName(){
@@ -17,7 +17,7 @@ function functionName(){
             //code the function runs
 //}
 
-
+//functions return something and procedures do not
 var total = calcArea(30, 20);
 
 function calcArea(w,h){
