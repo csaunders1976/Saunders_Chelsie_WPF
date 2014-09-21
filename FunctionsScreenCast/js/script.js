@@ -3,21 +3,30 @@ Chelsie Saunders
 September 21 ,2014
 Functions Screen-cast
  */
-//Variable Scope
+//Arguments and Parameters
 /*
 Basic structure of a function
 function functionName(){
     //code the function runs
 }
     */
-var width = 5;
 
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-   // console.log(area);
+//-----------Arguments & Parameters
+    // funcName (argument1, argument2);
+    // function funcName (parameter1, parameter2){
+            //code the function runs
+//}
+
+/*calcArea(30, 20);
+function calcArea(w,h){ // w=30, h=20
+
+    var area = w * h;
+    console.log(area);
+}*/
+function dogYears(age){
+    var dogYears = age *7;
+    console.log("Sparky is " + dogYears + " years old.")
 }
-console.log(width);
-//calling the function
-calcArea();
+dogYears(4);
+dogYears(5);
+
