@@ -39,14 +39,16 @@ var weight = 182;
 // --- function for calculating how many stings from a bee does it take to kill an animal ---
 function killerBee(w){
     //formula for calculating how many bee stings to kill
-    var death = w/8.666666667;
+    var death = w / 8.666666667;
 // Return: I need to return this value so I can get a result outside of this function
     return death;
 }
 //----------------------------END OF FUNCTION-----------------------------------//
+
+//This is the result variable. It calls the function and provides the argument that the function will use.
 var stings= killerBee(weight);
 
 // Result to print to the console:
-console.log( "It takes " + Math.ceil(stings) + " bee stings to kill this animal.");/// I don't really understand how you can get a partial sting so I added the Math.ceil to round up
+console.log("It takes " + Math.ceil(stings) + " bee stings to kill this animal.");/// I don't really understand how you can get a partial sting so I added the Math.ceil to round up
 
 
