@@ -37,7 +37,8 @@ Functions_worksheet
 // Parameter(s) for function:
 // Radius of the circle
 var radius;
-function calcCircumf(){
+var result = calcCircumf(radius);
+function calcCircumf(r){
     // Circumference of the circle
     var cir = r * Math.PI;
     return cir;
