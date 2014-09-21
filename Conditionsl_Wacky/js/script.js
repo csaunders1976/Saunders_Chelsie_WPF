@@ -47,17 +47,17 @@ if(firstVar === 1){
             //console log to state third choice
             console.log("The third option you picked was "+secondVar+".");
             if(secondVar ==="red"){
-                alert("The answer is No")
-                console.log("The answer is No")
+                alert("The answer is No");
+                console.log("The answer is No");
             }else if(secondVar === "orange"){
-                alert("The answer is Yes")
+                alert("The answer is Yes");
                 console.log("The answer is Yes")
             }else if(secondVar === "yellow"){
-                alert("The answer is Maybe")
-                console.log("The answer is Maybe")
+                alert("The answer is Maybe");
+                console.log("The answer is Maybe");
             }else{
-                alert("The answer is Not Sure")
-                console.log("The answer is Not Sure")
+                alert("The answer is Not Sure");
+                console.log("The answer is Not Sure");
             }
 
         }else if(colorOne === "yellow" || "black"){
@@ -70,16 +70,16 @@ if(firstVar === 1){
             //console log to state third choice
             console.log("The third option you picked was "+secondVar+".");
             if(secondVar === "purple"){
-                alert("The answer is cloudy. Ask again Later")
-                console.log("The answer is cloudy. Ask again Later")
+                alert("The answer is cloudy. Ask again Later");
+                console.log("The answer is cloudy. Ask again Later");
             }else if(secondVar === "green"){
-                alert("The answer is Definitely")
-                console.log("The answer is Definitely")
+                alert("The answer is Definitely");
+                console.log("The answer is Definitely");
             }else if(secondVar === "blue"){
-                alert("The answer is Unlikely")
-                console.log("The answer is Unlikely")
+                alert("The answer is Unlikely");
+                console.log("The answer is Unlikely");
             }else{
-                alert("The answer is Perhaps")
+                alert("The answer is Perhaps");
                 console.log("The answer is Perhaps");
             }
         }
@@ -118,7 +118,7 @@ if(firstVar === 1){
                 //prompt the user to type in information again
                 thirdVar = prompt("Pick (enter) another color: purple, green, blue, or pink. \n You have to enter a color if you want to know your fortune.");
             }
-            console.log("The third option you picked is "+thirdVar+".")
+            console.log("The third option you picked is "+thirdVar+".");
             if(thirdVar === "purple"){
                 alert("The answer is cloudy. Ask again Later");
                 console.log("The answer is cloudy. Ask again Later");
