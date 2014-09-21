@@ -20,6 +20,7 @@ function calcCir(r){
 // Return: I need to return this value so I can calculate my result
     return cir;
 }
+//----------------------------END OF FUNCTION-----------------------------------//
 
 //This is the result variable. It calls the function and gives the needed argument to calculate the function.
 var result = calcCir(radius);
@@ -42,9 +43,10 @@ function killerBee(w){
 // Return: I need to return this value so I can get a result outside of this function
     return death;
 }
-
+//----------------------------END OF FUNCTION-----------------------------------//
 var stings= killerBee(weight);
-console.log("It takes " + Math.ceil(stings) + " bee stings to kill this animal.");/// I don't really understand how you can get a partial sting so I added the Math.ceil to round up
 
 // Result to print to the console:
-// “It takes X bee stings to kill this animal.
+console.log( "It takes " + Math.ceil(stings) + " bee stings to kill this animal.");/// I don't really understand how you can get a partial sting so I added the Math.ceil to round up
+
+
