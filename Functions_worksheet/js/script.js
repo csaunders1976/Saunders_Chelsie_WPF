@@ -5,27 +5,29 @@ Functions_worksheet
  */
 
 
-//---------------------- Circumference
+//---------------------- Circumference --------------------------
 
 // Calculate the circumference of a circle.
 
 // Parameter(s) for function:
 // Radius of the circle
-var radius = 5;
+var radius = 10;
 
-//function for calculating circumference
-function calcCircumf(r){
+// --- function for calculating circumference ---
+function calcCir(r){
     // formula Circumference of the circle
-    var cir = r * 2 * Math.PI;// Yeah, I am a bad girl. I read ahead again. I had to add the Math.PI so things are neat and tidy
+    var cir = r * 2 * Math.PI;// Yeah, I am a bad girl. I read ahead again. I had to add the Math.PI so things are neat and tidy.
 // Return: I need to return this value so I can calculate my result
     return cir;
 }
+
 //This is the result variable. It calls the function and gives the needed argument to calculate the function.
-var result = calcCircumf(radius);
+var result = calcCir(radius);
 // Result to print to the console:
 console.log("The circumference of the circle is " + result.toFixed(3));
 
-//--------------------- Stung!
+
+//--------------------- Stung! -------------------------------------
 
 // It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
 
@@ -33,6 +35,8 @@ console.log("The circumference of the circle is " + result.toFixed(3));
 // Victim’s weight (in pounds)
 // Parameter(s) for function:
 // Victim’s weight (in pounds)
+var weight = 182;
+
 // Return:
 // Number of Bee stings
 // Result to print to the console:
