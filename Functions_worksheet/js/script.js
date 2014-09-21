@@ -36,17 +36,17 @@ Functions_worksheet
 
 // Parameter(s) for function:
 // Radius of the circle
-var radius;
-var result = calcCircumf(radius);
+var radius = 5;
+
 function calcCircumf(r){
     // Circumference of the circle
     var cir = r * Math.PI;
     return cir;
 }
 // Return:
-
+var result = calcCircumf(radius);
 // Result to print to the console:
-console.log("The circumference of the circle is " + cir);
+console.log("The circumference of the circle is " + result);
 
 //--------------------- Stung!
 

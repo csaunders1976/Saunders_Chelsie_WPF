@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c0ef49-0c18-4a98-8c88-62870929f76b" name="Default" comment="" />
+    <list default="true" id="93c0ef49-0c18-4a98-8c88-62870929f76b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_worksheet/js/script.js" afterPath="$PROJECT_DIR$/Functions_worksheet/js/script.js" />
+    </list>
     <ignored path="Saunders_Chelsie_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,20 +28,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65909094" vertical-offset="105" max-vertical-offset="1020">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FunctionsScreenCast/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <caret line="10" column="1" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.8181818" vertical-offset="165" max-vertical-offset="1020">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -689,7 +679,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FunctionsScreenCast/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+        <state vertical-scroll-proportion="0.22321428" vertical-offset="0" max-vertical-offset="672">
           <caret line="10" column="1" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -699,8 +689,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65909094" vertical-offset="105" max-vertical-offset="1020">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.8181818" vertical-offset="165" max-vertical-offset="1020">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
