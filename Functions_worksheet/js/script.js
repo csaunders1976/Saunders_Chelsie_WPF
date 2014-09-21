@@ -45,7 +45,7 @@ function calcCircumf(){
 // Return:
 
 // Result to print to the console:
-// “The circumference of the circle is X”;
+console.log("The circumference of the circle is " + cir);
 
 //--------------------- Stung!
 
