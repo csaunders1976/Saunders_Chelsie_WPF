@@ -4,7 +4,6 @@ September 21 ,2014
 Functions_worksheet
  */
 
-
 //---------------------- Circumference --------------------------
 
 // Calculate the circumference of a circle.
@@ -31,7 +30,6 @@ console.log("The circumference of the circle is " + result.toFixed(3));
 //--------------------- Stung! -------------------------------------
 
 // It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
-
 
 // Victim’s weight (in pounds)
 var weight = 182;
