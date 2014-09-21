@@ -44,6 +44,7 @@ function killerBee(w){
 }
 
 var stings= killerBee(weight);
-console.log(stings);
+console.log("It takes " + Math.ceil(stings) + " bee stings to kill this animal.");/// I don't really understand how you can get a partial sting so I added the Math.ceil to round up
+
 // Result to print to the console:
 // “It takes X bee stings to kill this animal.
