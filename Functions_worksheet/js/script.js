@@ -13,12 +13,14 @@ Functions_worksheet
 // Radius of the circle
 var radius = 5;
 
+//function for calculating circumference
 function calcCircumf(r){
-    // Circumference of the circle
-    var cir = r * Math.PI;
+    // formula Circumference of the circle
+    var cir = r * 2 * Math.PI;// Yeah, I am a bad girl. I read ahead again. I had to add the Math.PI so things are neat and tidy
+// Return: I need to return this value so I can calculate my result
     return cir;
 }
-// Return:
+//This is the result variable. It calls the function and gives the needed argument to calculate the function.
 var result = calcCircumf(radius);
 // Result to print to the console:
 console.log("The circumference of the circle is " + result.toFixed(3));
