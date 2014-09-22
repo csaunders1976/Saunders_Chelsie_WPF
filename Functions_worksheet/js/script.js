@@ -12,7 +12,7 @@ Functions_worksheet
 // Radius of the circle
 var radius = 10;
 
-// --- function for calculating circumference ---
+// ----------------------* function for calculating circumference *----------------------------------------------
 function calcCir(r){
     // formula for circumference of the circle
     var cir = r * 2 * Math.PI;// Yeah, I am a bad girl. I read ahead again. I had to add the Math.PI so things are neat and tidy.
@@ -34,7 +34,7 @@ console.log("The circumference of the circle is " + result.toFixed(3));
 // Victim’s weight (in pounds)
 var weight = 182;
 
-// --- function for calculating how many stings from a bee does it take to kill an animal ---
+// --------* function for calculating how many stings from a bee does it take to kill an animal *------------------
 function killerBee(w){
     //formula for calculating how many bee stings to kill
     var death = w / 8.666666667;
@@ -44,7 +44,7 @@ function killerBee(w){
 //----------------------------END OF FUNCTION-----------------------------------//
 
 //This is the result variable. It calls the function and provides the argument that the function will use.
-var stings= killerBee(weight);
+var stings = killerBee(weight);
 
 // Result to print to the console:
 console.log("It takes " + Math.ceil(stings) + " bee stings to kill this animal.");/// I don't really understand how you can get a partial sting so I added the Math.ceil to round up
