@@ -11,11 +11,11 @@ Functions Personal
 // Height in inches
 var height = 67;
 // weight in pounds
-var weight = 182;
+var weight = 120;
 
 function calcBMI(h,w){
     // formula for calculated BMI
-    var bmi = h * h * 703 / w;
+    var bmi = (w / Math.pow(h,2)) * 703;
 // Return: I need to return this value so I can calculate my result
     return bmi;
 }
@@ -37,5 +37,7 @@ Below 18.5	Underweight
 */
 
 if(bmiResult <= 18.5){
-    alert(" You body fat is " + bmiResult + "%. That is underweight. Don't be afraid to eat a hamburger.")
+    alert(" You body fat is " + bmiResult.toFixed(2) + "%. That is underweight. Don't be afraid to eat a hamburger.");
+}else if(bmiResult > 18.5 && bmiResult <= 24.9){
+    alert(" You body fat is " + bmiResult.toFixed(2) + "%. That is normal. Keep up the healthy lifestyle!");
 }
