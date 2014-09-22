@@ -24,7 +24,7 @@ function calcBMI(h,w){
 //This is the result variable. It calls the function and gives the needed argument to calculate the function.
 var bmiResult = calcBMI(height, weight);
 // Result to print to the console:
-console.log(bmiResult);
+console.log(bmiResult.toFixed(2));
 
 //---------IS YOUR Body Mass What it should be?----------------
 /*
@@ -40,4 +40,6 @@ if(bmiResult <= 18.5){
     alert(" You body fat is " + bmiResult.toFixed(2) + "%. That is underweight. Don't be afraid to eat a hamburger.");
 }else if(bmiResult > 18.5 && bmiResult <= 24.9){
     alert(" You body fat is " + bmiResult.toFixed(2) + "%. That is normal. Keep up the healthy lifestyle!");
+}else if(bmiResult >= 25 && bmiReslt <=29.9){
+    alert(" You body fat is " + bmiResult.toFixed(2) + "%. That makes you overweight. It is time to hit the gym!");
 }
