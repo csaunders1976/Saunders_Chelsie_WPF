@@ -26,6 +26,7 @@ var bmiResult = calcBMI(height, weight);
 // Result to print to the console:
 console.log(bmiResult);
 
+//---------IS YOUR Body Mass What it should be?----------------
 /*
 BMI
 Weight Status
@@ -34,3 +35,7 @@ Below 18.5	Underweight
 25.0—29.9	Overweight
 30.0 and Above	Obese
 */
+
+if(bmiResult <= 18.5){
+    alert(" You body fat is " + bmiResult + "%. That is underweight. Don't be afraid to eat a hamburger.")
+}
