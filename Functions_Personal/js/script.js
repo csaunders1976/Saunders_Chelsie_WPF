@@ -9,13 +9,13 @@ Functions Personal
 //BMI = ( Weight in Pounds / ( Height in inches x Height in inches ) ) x 703
 //Givens:
 // Height in inches
-var height;
+var height = 67;
 // weight in pounds
-var weight;
+var weight = 182;
 
 function calcBMI(h,w){
     // formula for calculated BMI
-    var bmi = w / h * h * 703;
+    var bmi = h * h * 703 / w;
 // Return: I need to return this value so I can calculate my result
     return bmi;
 }
