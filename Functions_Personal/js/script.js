@@ -5,13 +5,13 @@ Functions Personal
  */
 /// BMI Calculator
 
-//-------FORMULA FOR CALCULTING BMI (Body Mass Index)------
+//-------FORMULA FOR CALCULATING BMI (Body Mass Index)------
 //BMI = ( Weight in Pounds / ( Height in inches x Height in inches ) ) x 703
 //Givens:
 // Height in inches
 var height = 67;
 // weight in pounds
-var weight = 160;
+var weight = 159;
 
 function calcBMI(h,w){
     // formula for calculated BMI
@@ -37,10 +37,10 @@ Below 18.5	Underweight
 */
 
 if(bmiResult <= 18.5){
-    alert(" You body fat is " + bmiResult.toFixed(2) + "%. That is underweight. \n Don't be afraid to eat a hamburger.");
+    alert(" You body fat is " + bmiResult.toFixed(2) + "%. That is underweight. \n Don't be afraid to eat a cheeseburger.");
 }else if(bmiResult > 18.5 && bmiResult <= 24.9){
     alert(" You body fat is " + bmiResult.toFixed(2) + "%. That is normal. \n Keep up the healthy lifestyle!");
-}else if(bmiResult >= 25 && bmiReslt <= 29.9){
+}else if(bmiResult >= 25 && bmiResult <= 29.9){
     alert(" You body fat is " + bmiResult.toFixed(2) + "%. That makes you overweight. \n It is time to hit the gym!");
 }else{
     alert(" You body fat is " + bmiResult.toFixed(2) + "%. That makes you obese. \n Your help is greatly at risk");
