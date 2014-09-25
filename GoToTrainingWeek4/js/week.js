@@ -54,14 +54,14 @@ while (max === "" || isNaN(max)){
 //function call
 //Set up a variable to CATCH the RETURNED value
 
-var returnNum = randomizer(min, max);
-
+var returnNumb = randomizer(min, max);
+console.log(returnNumb);
 function randomizer(minNum, maxNum){
     //Code inside of the function- it will only run if the function is called
     console.log("Inside of function");
-    var randNumb =console.log(Math.round(Math.random()*(maxNum-minNum) + Number(minNum)));
+    var randNumb = Math.round(Math.random()*(maxNum-minNum) + Number(minNum));
     //return value
-    return nandNum;
+    return randNumb;
 
 
 }
