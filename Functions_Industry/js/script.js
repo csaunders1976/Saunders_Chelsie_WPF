@@ -25,11 +25,19 @@ while(points ==="" || isNaN(points)){
     prompt("How many points is your font? Numbers only please");
 }
 
-
+//--------------------Anonymous Function--------------------------
 var convert = function(p){
+    // my formula written in code
     var num = p * 96 / 72;
+    //return value
     return num
 }
+//-------------------End of Function----------------------------
 
 var result = convert(points);
-console.log(result);
+
+//I used the console log to test my math
+//console.log(result);
+
+//results
+//console.log
