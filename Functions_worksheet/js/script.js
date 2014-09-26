@@ -11,6 +11,10 @@ Functions_worksheet
 // Parameter(s) for function:
 // Radius of the circle . I will have to make it a prompt. I need more commits!
 var radius = prompt("What is the radius of your circle?");
+while (max === "" || isNaN(max)) {
+    //re-prompt the use
+    max = prompt("Please enter the radius. Numbers only please!");
+}
 
 // ----------------------* function for calculating circumference *----------------------------------------------
 function calcCir(r){
