@@ -28,7 +28,12 @@ while( tribbles==="" || isNaN(tribbles)) {
     //reprompt the user
     tribbles = prompt("Please enter a number... or this won't work!");
 }
+
 var time = prompt("How many hours have passed?");
+while( time==="" || isNaN(tribbles)) {
+    //reprompt the user
+    time = prompt("Please enter a number... or this won't work!");
+}
 
 var fertility = function (trib,hours){
     //calculation to find how many tribbles reproduce over times
