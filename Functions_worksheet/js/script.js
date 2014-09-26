@@ -29,6 +29,7 @@ function calcCir(r){
 var result = calcCir(radius);
 // Result to print to the console:
 console.log("The circumference of the circle is " + result.toFixed(3));
+alert("The circumference of the circle is " + result.toFixed(3));
 
 
 //--------------------- Stung! -------------------------------------
