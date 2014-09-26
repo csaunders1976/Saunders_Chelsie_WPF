@@ -12,9 +12,9 @@ Functions_worksheet
 // Radius of the circle . I will have to make it a prompt. I need more commits!
 var radius = prompt("What is the radius of your circle?");
 //verify prompt
-while (max === "" || isNaN(max)) {
+while (radius === "" || isNaN(radius)) {
     //re-prompt the use
-    max = prompt("Please enter the radius. Numbers only please!");
+    radius = prompt("Please enter the radius. Numbers only please!");
 }
 
 // ----------------------* function for calculating circumference *----------------------------------------------
@@ -40,9 +40,9 @@ alert("The circumference of the circle is " + result.toFixed(3));
 // Victim’s weight (in pounds)
 var weight = prompt("What is the weight (in pounds) of the animal subjected to bee stings?");
 //verify prompt
-while (max === "" || isNaN(max)) {
+while (weight === "" || isNaN(weight)) {
     //re-prompt the use
-    max = prompt("Please enter the weight. Numbers only please!");
+    weight = prompt("Please enter the weight. Numbers only please!");
 }
 
 // --------* function for calculating how many stings from a bee does it take to kill an animal *------------------

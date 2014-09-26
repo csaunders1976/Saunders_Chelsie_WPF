@@ -23,6 +23,10 @@ easier to calculate.R.I.P Gene Roddenberry*/
  How many hours lapsed
  how many starting Tribbles*/
 var tribbles = prompt("How many Tribbles do you have?");
+//validate prompt
+while( tribbles==="" || isNaN(tribbles)){
+    //reprompt the user
+    min= prompt("Please enter a number... or this won't work!")
 var time = 72;
 
 var fertility = function (trib,hours){
