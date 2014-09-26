@@ -10,11 +10,14 @@ Functions Personal
 //Givens:
 // Height in inches
 var height = prompt("What is your height in inches?");
-    while(height ==="" || isNan(height)){
-        prompt("What is your height in inches? Numbers only please.");
-    }
+while(height ==="" || isNaN(height)){
+    prompt("What is your height in inches? Numbers only please.");
+}
 // weight in pounds
-var weight = 159;
+var weight = prompt("What is your weight in pounds?");
+while(weight ==="" || isNaN(weight)){
+    prompt("What is your weight in pounds? Numbers only please.");
+}
 
 function calcBMI(h,w){
     // formula for calculated BMI
