@@ -24,10 +24,11 @@ easier to calculate.R.I.P Gene Roddenberry*/
  how many starting Tribbles*/
 var tribbles = prompt("How many Tribbles do you have?");
 //validate prompt
-while( tribbles==="" || isNaN(tribbles)){
+while( tribbles==="" || isNaN(tribbles)) {
     //reprompt the user
-    min= prompt("Please enter a number... or this won't work!")
-var time = 72;
+    tribbles = prompt("Please enter a number... or this won't work!");
+}
+var time = prompt("How many hours have passed?");
 
 var fertility = function (trib,hours){
     //calculation to find how many tribbles reproduce over times
