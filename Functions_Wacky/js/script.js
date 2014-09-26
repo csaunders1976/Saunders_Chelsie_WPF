@@ -19,7 +19,7 @@ easier to calculate.R.I.P Gene Roddenberry*/
 // Then I will have to multiply that number every 12 hours.
 
 
-/*Givens
+/*Givens-----------------------------------------------------------------
  How many hours lapsed
  how many starting Tribbles*/
 var tribbles = prompt("How many Tribbles do you have?");
@@ -35,6 +35,8 @@ while( time==="" || isNaN(tribbles)) {
     time = prompt("Please enter a number... or this won't work!");
 }
 
+//*************************** Anonymous function ****************************************//
+//Sorry there are so many comments. I figured I should show my work.
 var fertility = function (trib,hours){
     //calculation to find how many tribbles reproduce over times
 //    var crazyTribbles = (Math.round(trib + trib * Math.random()*(10)) )*(hours/12);
@@ -54,6 +56,14 @@ var fertility = function (trib,hours){
     //return value
     return furEverywhere;
 }
+//**************************END OF FUNCTION**********************************************//
+
 // this is the variable to catch the number from the  fertility function
 var result = fertility(tribbles, time);
-console.log(result);
+
+//I have to create an alert for my result.... but if not enough time for gestation to complete I will need a different alert.
+if (time < 12){
+    alert("There has not been enough time for the tribbles to reproduce.");
+}else{
+    alert("You have approximately " + Math.round(result) + " tribbles filling up the Enterprise.")
+}

@@ -9,7 +9,10 @@ Functions Personal
 //BMI = ( Weight in Pounds / ( Height in inches x Height in inches ) ) x 703
 //Givens:
 // Height in inches
-var height = 67;
+var height = prompt("What is your height in inches?");
+    while(height ==="" || isNan(height)){
+        prompt("What is your height in inches? Numbers only please.");
+    }
 // weight in pounds
 var weight = 159;
 

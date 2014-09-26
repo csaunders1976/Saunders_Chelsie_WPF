@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c0ef49-0c18-4a98-8c88-62870929f76b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Personal/js/script.js" afterPath="$PROJECT_DIR$/Functions_Personal/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Functions_Wacky/js/script.js" />
     </list>
     <ignored path="Saunders_Chelsie_WPF.iws" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="week.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoToTrainingWeek4/js/week.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1095">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
               <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -38,13 +39,11 @@
         </entry>
       </file>
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8636364" vertical-offset="300" max-vertical-offset="960">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="765">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,12 +96,12 @@
         <option value="$PROJECT_DIR$/Functions_Industry/index.html" />
         <option value="$PROJECT_DIR$/Functions_Personal/index.html" />
         <option value="$PROJECT_DIR$/Functions_Wacky/index.html" />
-        <option value="$PROJECT_DIR$/Functions_Personal/js/script.js" />
         <option value="$PROJECT_DIR$/Functions_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/GoToTrainingWeek4/week.html" />
         <option value="$PROJECT_DIR$/GoToTrainingWeek4/js/week.js" />
         <option value="$PROJECT_DIR$/Functions_worksheet/js/script.js" />
         <option value="$PROJECT_DIR$/Functions_Wacky/js/script.js" />
+        <option value="$PROJECT_DIR$/Functions_Personal/js/script.js" />
       </list>
     </option>
   </component>
@@ -198,7 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Functions_worksheet" />
+              <option name="myItemId" value="Functions_Personal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,39 +211,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Functions_worksheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saunders_Chelsie_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saunders_Chelsie_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Functions_Wacky" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saunders_Chelsie_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saunders_Chelsie_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Functions_Wacky" />
+              <option name="myItemId" value="Functions_Personal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -689,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26745912" vertical-offset="0" max-vertical-offset="780">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06686478" vertical-offset="0" max-vertical-offset="673">
@@ -720,9 +680,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77272725" vertical-offset="0" max-vertical-offset="1110">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoToTrainingWeek4/js/week.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1095">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -730,13 +700,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8636364" vertical-offset="300" max-vertical-offset="960">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="765">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
