@@ -11,9 +11,7 @@ and remembered that Tribbles are asexual and born pregnant. That would certainly
 easier to calculate.R.I.P Gene Roddenberry*/
 
 
-//Givens
-// How many hours lapsed
-// how many starting Tribbles
+
 
 // Tribbles can produce up to 10 offspring every 12 hours.
 // I will have to multiply the starting amount of tribbles by 10 plus the original amount of tribbles.
@@ -21,10 +19,18 @@ easier to calculate.R.I.P Gene Roddenberry*/
 // Then I will have to multiply that number every 12 hours.
 
 
+/*Givens
+ How many hours lapsed
+ how many starting Tribbles*/
+var tribbles = 3;
+var time = 24;
 
-var tribbles;
-var time;
-
-function fertility(){
-
+var fertility = function (trib,hours){
+    //calculation to find how many tribbles reproduce over times
+    var crazyTribbles = (Math.round(trib + trib * Math.random()*(10)) )*(hours/12);
+    //return value
+    return crazyTribbles;
 }
+// this is the variable to catch the number from the  fertility function
+var result = fertility(tribbles, time);
+console.log(result);
