@@ -38,6 +38,10 @@ alert("The circumference of the circle is " + result.toFixed(3));
 
 // Victim’s weight (in pounds)
 var weight = prompt("What is the weight (in pounds) of the animal subjected to bee stings?");
+while (max === "" || isNaN(max)) {
+    //re-prompt the use
+    max = prompt("Please enter the weight. Numbers only please!");
+}
 
 // --------* function for calculating how many stings from a bee does it take to kill an animal *------------------
 function killerBee(w){
