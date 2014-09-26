@@ -9,8 +9,8 @@ Functions_worksheet
 // Calculate the circumference of a circle.
 
 // Parameter(s) for function:
-// Radius of the circle
-var radius = 10;
+// Radius of the circle . I will have to make it a prompt. I need more commits!
+var radius = prompt("What is the radius of your circle?");
 
 // ----------------------* function for calculating circumference *----------------------------------------------
 function calcCir(r){
