@@ -40,4 +40,4 @@ var result = convert(points);
 //console.log(result);
 
 //results
-//console.log
+console.log(points + "points is equal to "+ result + " points");
