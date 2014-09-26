@@ -41,3 +41,4 @@ var result = convert(points);
 
 //results
 console.log(points + "points is equal to "+ result + " points");
+alert(points + "points is equal to "+ result + " points.");
