@@ -22,7 +22,7 @@ easier to calculate.R.I.P Gene Roddenberry*/
 /*Givens
  How many hours lapsed
  how many starting Tribbles*/
-var tribbles = 1;
+var tribbles = prompt("How many Tribbles do you have?");
 var time = 72;
 
 var fertility = function (trib,hours){
