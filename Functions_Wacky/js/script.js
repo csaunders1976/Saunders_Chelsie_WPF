@@ -27,7 +27,9 @@ var time = 24;
 
 var fertility = function (trib,hours){
     //calculation to find how many tribbles reproduce over times
-    var crazyTribbles = (Math.round(trib + trib * Math.random()*(10)) )*(hours/12);
+//    var crazyTribbles = (Math.round(trib + trib * Math.random()*(10)) )*(hours/12);
+// Now that I have tested this I got a result of 64. I want to see if my math is right so I will test it without the Math.random
+    var crazyTribbles = (Math.round(trib + trib * 10) )*(hours/12);
     //return value
     return crazyTribbles;
 }
