@@ -11,6 +11,7 @@ Functions_worksheet
 // Parameter(s) for function:
 // Radius of the circle . I will have to make it a prompt. I need more commits!
 var radius = prompt("What is the radius of your circle?");
+//verify prompt
 while (max === "" || isNaN(max)) {
     //re-prompt the use
     max = prompt("Please enter the radius. Numbers only please!");
@@ -38,6 +39,7 @@ alert("The circumference of the circle is " + result.toFixed(3));
 
 // Victim’s weight (in pounds)
 var weight = prompt("What is the weight (in pounds) of the animal subjected to bee stings?");
+//verify prompt
 while (max === "" || isNaN(max)) {
     //re-prompt the use
     max = prompt("Please enter the weight. Numbers only please!");
@@ -57,5 +59,5 @@ var stings = killerBee(weight);
 
 // Result to print to the console:
 console.log("It takes " + Math.ceil(stings) + " bee stings to kill this animal.");/// I don't really understand how you can get a partial sting so I added the Math.ceil to round up
-
+alert("It takes " + Math.ceil(stings) + " bee stings to kill this animal.");
 
