@@ -3,10 +3,15 @@ Chelsie Saunders
 September 21 ,2014
 Functions Wacky
 */
-//Naughty Bunnies
+//Naughty Tribbles
 
-//I am going to calculate how many bunnies I would have over any given period of time if
-//I let them do what bunnies do best.
+/* I originally had breeding bunnies. I figured that I had to consider that a large portion
+of rabbits were born male. I was not sure I could calculate that. Fortuatly I am a Star Trek Fan
+and remembered that Tribbles are asexual and born pregnant. That would certainly make things
+easier to calulate.R.I.P Gene Roddenberry*/
 
-// gestation is 30 days
-// 5 to eight in a litter
+
+//Givens
+// How many hours lapsed
+// how many starting Tribbles
+
